@@ -1,0 +1,23 @@
+﻿Sofia;Biad;Preslava
+Pernik;Stadion na mira;Vinkel
+New York;Statue of Liberty;Krisko
+Oslo;everywhere;Behemoth
+Pernik;Letishteto;RoYaL
+Pernik;Stadion na mira;Bankin
+Pernik;Stadion na mira;Vinkel
+END
+
+Sofia;Biad;Preslava
+Pernik;Stadion na mira;Vinkel
+New York;Statue of Liberty;Krisko
+Oslo;everywhere;Behemoth
+Pernik;Letishteto;RoYaL
+Pernik;Stadion na mira;Bankin
+Pernik;Stadion na mira;Vinkel
+Sofia;Biad;Luna
+Sofia;Biad;Druga Chalgarka
+Sofia;Biad;Bace Milko
+Sofia;Pametnika;Dj Sulyo
+Sofia;Pametnika;Dj Pulyo
+END
+

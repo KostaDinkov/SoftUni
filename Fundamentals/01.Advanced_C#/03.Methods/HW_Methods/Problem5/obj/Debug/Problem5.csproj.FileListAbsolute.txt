@@ -1,0 +1,5 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem5\bin\Debug\Problem5.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem5\bin\Debug\Problem5.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem5\bin\Debug\Problem5.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem5\obj\Debug\Problem5.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem5\obj\Debug\Problem5.pdb

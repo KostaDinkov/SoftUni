@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem1\bin\Debug\Problem1.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem1\bin\Debug\Problem1.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem1\bin\Debug\Problem1.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem1\obj\Debug\Problem1.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem1\obj\Debug\Problem1.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\03.Methods\HW_Methods\Problem1\obj\Debug\Problem1.pdb

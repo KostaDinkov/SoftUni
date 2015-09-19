@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\04.Multidimesional_Arrays\HW_Multidimensional_Arrays\Problem7\bin\Debug\Problem7.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\04.Multidimesional_Arrays\HW_Multidimensional_Arrays\Problem7\bin\Debug\Problem7.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\04.Multidimesional_Arrays\HW_Multidimensional_Arrays\Problem7\bin\Debug\Problem7.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\04.Multidimesional_Arrays\HW_Multidimensional_Arrays\Problem7\obj\Debug\Problem7.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\04.Multidimesional_Arrays\HW_Multidimensional_Arrays\Problem7\obj\Debug\Problem7.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\04.Multidimesional_Arrays\HW_Multidimensional_Arrays\Problem7\obj\Debug\Problem7.pdb

@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Semester 1\01.Advanced_C#\02.Strukturi_ot_danni\HW_Arrays\Problem2\bin\Debug\Problem2.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Semester 1\01.Advanced_C#\02.Strukturi_ot_danni\HW_Arrays\Problem2\bin\Debug\Problem2.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Semester 1\01.Advanced_C#\02.Strukturi_ot_danni\HW_Arrays\Problem2\bin\Debug\Problem2.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Semester 1\01.Advanced_C#\02.Strukturi_ot_danni\HW_Arrays\Problem2\obj\Debug\Problem2.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Semester 1\01.Advanced_C#\02.Strukturi_ot_danni\HW_Arrays\Problem2\obj\Debug\Problem2.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Semester 1\01.Advanced_C#\02.Strukturi_ot_danni\HW_Arrays\Problem2\obj\Debug\Problem2.csprojResolveAssemblyReference.cache

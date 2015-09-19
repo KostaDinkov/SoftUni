@@ -1,0 +1,29 @@
+/**
+ * Software University
+ * Course : Java Basics
+ * Lecture: Introduction to Java
+ * Problem: 10
+ * Description:
+ * Create a JAR archive holding your code from the previous program.
+ * Write a script (run.cmd / run.sh) to run your program from the Windows / Linux console
+ * (depending of your environment). You should include in the classpath the JAR holding your
+ * code as well as the JARs holding the external libraries that your code uses. Submit the
+ * script along with the JAR files as part of your homework.
+ * Created  on 14-8-24.
+ */
+
+1. The jar file is located in \Homework\out\production\Homework\cards.jar
+2. The external library used is located in \Homework\out\production\Homework\lib\PDFjet.jar
+3. The contents of the manifest file is as follows:
+
+    Manifest-Version: 1.0
+    Class-Path: lib/PDFjet.jar
+    Created-By: 1.8.0_05 (Oracle Corporation)
+    Main-Class: DeckOfCards
+
+4. Cards.jar can be executed from the console with the
+    \Homework\out\production\Homework\cards.cmd batch
+    file containing the command:
+
+    java -jar cards.jar
+
