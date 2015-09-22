@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem3\bin\Debug\Problem3.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem3\bin\Debug\Problem3.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem3\bin\Debug\Problem3.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem3\obj\Debug\Problem3.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem3\obj\Debug\Problem3.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem3\obj\Debug\Problem3.pdb
