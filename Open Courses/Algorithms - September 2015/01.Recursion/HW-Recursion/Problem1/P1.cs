@@ -21,7 +21,7 @@ namespace Problem1
     class P1
     {
         
-        private static int stepsTaken = 0;
+        private static int _stepsTaken = 0;
 
         static void Main(string[] args)
         {
@@ -33,13 +33,13 @@ namespace Problem1
             Stack<int> spare = new Stack<int>();
             
             MoveDisks(diskCount, source, destination, spare);
-            Console.WriteLine($"Steps taken to solve Towers of Hanoi:{stepsTaken}");
+            Console.WriteLine($"Steps taken to solve Towers of Hanoi:{_stepsTaken}");
            
         }
 
         static void MoveDisks(int bottomDisk, Stack<int> source, Stack<int> destination, Stack<int> spare)
         {
-            stepsTaken++;
+            _stepsTaken++;
             if (bottomDisk ==1)
             {
                 destination.Push(source.Pop());

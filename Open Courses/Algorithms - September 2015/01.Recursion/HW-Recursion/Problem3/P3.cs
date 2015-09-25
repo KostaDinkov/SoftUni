@@ -15,7 +15,7 @@ class P3
 {
     //NOTE: The number of combinations with repetition should be nCk = (n+k-1)!/(k!*(n-1)!)
     //Example: How many ways are there to pick 2(k) digits out of 4(n) digits  -> 4C2 = (4+2-1)!/(2!*(4-1)!) = (5*4*3!)/(2*3!) = 10
-    private static int combinationCount = 0;
+    private static int _combinationCount = 0;
     public static void Main()
     {
         Console.Write("N = ");
@@ -25,7 +25,7 @@ class P3
 
         int[] combination = new int[k];
         GenComRep(n, k, combination);
-        Console.WriteLine($"Number of combinations = {combinationCount}");
+        Console.WriteLine($"Number of combinations with repetition = {_combinationCount}");
     }
 
     static void GenComRep(int n, int k, int[] combination, int index = 0, int counter = 1)
@@ -33,7 +33,7 @@ class P3
         if (index == k)
         {
             PrintIntArray(combination);
-            combinationCount++; // remove this line for general usage of the method
+            _combinationCount++; // remove this line for general usage of the method
             return;
         }
         while (counter <= n)

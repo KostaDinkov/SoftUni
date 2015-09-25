@@ -19,8 +19,8 @@ namespace Problem6
 {
     class P6
     {
-        private static int areaSize =0;
-        private static List<Tuple<int,int,int>> areas = new List<Tuple<int, int, int>>(); 
+        private static int _areaSize;
+        private static List<Tuple<int,int,int>> _areas = new List<Tuple<int, int, int>>(); 
 
         
         static void Main()
@@ -43,7 +43,7 @@ namespace Problem6
             //TODO get matrix from user input or text file
             FindAllAreas(labytinth);
             //Sort the list of areas
-            areas.Sort((x, y) =>
+            _areas.Sort((x, y) =>
             {
                 //first sort by the size in descending order
                 int result = y.Item1.CompareTo(x.Item1);
@@ -53,9 +53,9 @@ namespace Problem6
                 return result == 0 ? x.Item3.CompareTo(y.Item3):result;
             });
             //Print the list
-            for (int index = 0; index <areas.Count; index++)
+            for (int index = 0; index <_areas.Count; index++)
             {
-                Console.WriteLine($"Area #{index+1} at ({areas[index].Item2}, {areas[index].Item3}), size: {areas[index].Item1}");
+                Console.WriteLine($"Area #{index+1} at ({_areas[index].Item2}, {_areas[index].Item3}), size: {_areas[index].Item1}");
             }
             
         }
@@ -73,8 +73,8 @@ namespace Problem6
                     if (labyrinth[row,col] != '*')
                     {
                         FindArea(labyrinth,row,col);
-                        areas.Add(new Tuple<int, int, int>( areaSize, row, col ));
-                        areaSize = 0;
+                        _areas.Add(new Tuple<int, int, int>( _areaSize, row, col ));
+                        _areaSize = 0;
                     }
                 }
             }
@@ -92,7 +92,7 @@ namespace Problem6
                 return;
             }
             labyrinth[row, col] = '*';
-            areaSize++;
+            _areaSize++;
             FindArea(labyrinth, row + 1, col); 
             FindArea(labyrinth, row, col + 1); 
             FindArea(labyrinth, row - 1, col); 

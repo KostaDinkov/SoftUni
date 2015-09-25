@@ -21,7 +21,7 @@ namespace Problem5
 
     class P5
     {
-        private static List<char> path = new List<char>();
+        private static List<char> _path = new List<char>();
         static void Main()
         {
             char[,] labytinth =
@@ -44,7 +44,7 @@ namespace Problem5
             }
             if (labyrinth[row, col] == 'e')
             {
-                Console.WriteLine(string.Join("", path).Substring(1) + direction);
+                Console.WriteLine(string.Join("", _path).Substring(1) + direction);
             }
             if (labyrinth[row,col]!=' ')
             {
@@ -52,13 +52,13 @@ namespace Problem5
             }
             
             labyrinth[row, col] = 'x';
-            path.Add(direction);
+            _path.Add(direction);
             FindPath(labyrinth, row + 1, col, 'D'); //Down
             FindPath(labyrinth, row, col + 1,'R'); //Left
             FindPath(labyrinth, row - 1, col,'U'); //Up
             FindPath(labyrinth, row, col - 1,'L'); //Right
             labyrinth[row, col] = ' ';
-            path.RemoveAt(path.Count-1);
+            _path.RemoveAt(_path.Count-1);
         }
     }
 }

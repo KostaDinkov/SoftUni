@@ -13,7 +13,7 @@ namespace Problem2
     class P2
 
     {
-        private static int variationCount=0;
+        private static int _variationCount=0;
         static void Main()
         
         {
@@ -21,7 +21,7 @@ namespace Problem2
             int loopCount = int.Parse(Console.ReadLine());
             int[] variations = new int[loopCount];
             GenVarRep(variations,variations.Length-1);
-            Console.WriteLine($"Number of variations with repetition = {variationCount}");
+            Console.WriteLine($"Number of variations with repetition = {_variationCount}");
         }
 
         static void GenVarRep( int [] variation, int counter)
@@ -29,7 +29,7 @@ namespace Problem2
             if (counter<0)
             {
                 PrintIntArray(variation);
-                variationCount++;
+                _variationCount++;
                 return;
             }
             for (int i = 1; i <= variation.Length; i++)
