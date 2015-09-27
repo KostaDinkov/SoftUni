@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\03.ExtractEmails\bin\Debug\03.ExtractEmails.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\03.ExtractEmails\obj\Debug\03.ExtractEmails.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\03.ExtractEmails\bin\Debug\03.ExtractEmails.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\03.ExtractEmails\bin\Debug\03.ExtractEmails.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\03.ExtractEmails\obj\Debug\03.ExtractEmails.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\03.ExtractEmails\obj\Debug\03.ExtractEmails.pdb

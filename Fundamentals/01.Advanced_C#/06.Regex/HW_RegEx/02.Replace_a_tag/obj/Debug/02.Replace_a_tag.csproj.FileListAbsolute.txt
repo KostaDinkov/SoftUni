@@ -1,0 +1,5 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\02.Replace_a_tag\bin\Debug\02.Replace_a_tag.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\02.Replace_a_tag\bin\Debug\02.Replace_a_tag.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\02.Replace_a_tag\bin\Debug\02.Replace_a_tag.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\02.Replace_a_tag\obj\Debug\02.Replace_a_tag.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\06.Regex\HW_RegEx\02.Replace_a_tag\obj\Debug\02.Replace_a_tag.pdb
