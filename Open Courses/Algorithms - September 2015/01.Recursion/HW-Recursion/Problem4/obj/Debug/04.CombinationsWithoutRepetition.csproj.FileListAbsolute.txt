@@ -1,0 +1,3 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem4\bin\Debug\Problem4.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem4\obj\Debug\Problem4.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\01.Recursion\HW-Recursion\Problem4\obj\Debug\Problem4.pdb

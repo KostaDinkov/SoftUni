@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem1", "Problem1\Problem1.csproj", "{17633F93-94BA-4EB1-BBFE-0D8565F62733}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TowerOfHanoi", "Problem1\01.TowerOfHanoi.csproj", "{17633F93-94BA-4EB1-BBFE-0D8565F62733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem2", "Problem2\Problem2.csproj", "{E03300EF-50A4-4FF1-BA26-99B427AFDA4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.NestedLoopsToRexursion", "Problem2\02.NestedLoopsToRexursion.csproj", "{E03300EF-50A4-4FF1-BA26-99B427AFDA4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem3", "Problem3\Problem3.csproj", "{C30FEA58-8AC9-4203-A020-B37E43D2B6D5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CombinationsWithRepetition", "Problem3\03.CombinationsWithRepetition.csproj", "{C30FEA58-8AC9-4203-A020-B37E43D2B6D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem4", "Problem4\Problem4.csproj", "{3536C6F3-CC05-44FA-88B6-A186036B48B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.CombinationsWithoutRepetition", "Problem4\04.CombinationsWithoutRepetition.csproj", "{3536C6F3-CC05-44FA-88B6-A186036B48B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem5", "Problem5\Problem5.csproj", "{8387DDC1-04DE-475E-8B23-7054BDD9FDD5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PathsBetweenCells", "Problem5\05.PathsBetweenCells.csproj", "{8387DDC1-04DE-475E-8B23-7054BDD9FDD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem6", "Problem6\Problem6.csproj", "{E2900906-2CA5-4F7B-BFD7-5504C2E759E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.ConnectedAreas", "Problem6\06.ConnectedAreas.csproj", "{E2900906-2CA5-4F7B-BFD7-5504C2E759E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
