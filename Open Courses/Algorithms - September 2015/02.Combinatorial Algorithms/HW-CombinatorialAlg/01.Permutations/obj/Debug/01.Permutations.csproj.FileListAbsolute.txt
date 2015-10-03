@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\01.Permutations\bin\Debug\01.Permutations.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\01.Permutations\bin\Debug\01.Permutations.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\01.Permutations\bin\Debug\01.Permutations.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\01.Permutations\obj\Debug\01.Permutations.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\01.Permutations\obj\Debug\01.Permutations.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\01.Permutations\obj\Debug\01.Permutations.pdb

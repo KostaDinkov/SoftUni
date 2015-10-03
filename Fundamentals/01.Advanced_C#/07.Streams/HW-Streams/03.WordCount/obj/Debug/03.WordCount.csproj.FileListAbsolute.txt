@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\03.WordCount\bin\Debug\03.WordCount.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\03.WordCount\bin\Debug\03.WordCount.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\03.WordCount\bin\Debug\03.WordCount.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\03.WordCount\obj\Debug\03.WordCount.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\03.WordCount\obj\Debug\03.WordCount.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\03.WordCount\obj\Debug\03.WordCount.pdb

@@ -1,0 +1,5 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\02.LineNumbers\bin\Debug\02.LineNumbers.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\02.LineNumbers\bin\Debug\02.LineNumbers.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\02.LineNumbers\bin\Debug\02.LineNumbers.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\02.LineNumbers\obj\Debug\02.LineNumbers.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\07.Streams\HW-Streams\02.LineNumbers\obj\Debug\02.LineNumbers.pdb

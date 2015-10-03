@@ -1,0 +1,5 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\02.GenPermIterate\bin\Debug\02.GenPermIterate.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\02.GenPermIterate\bin\Debug\02.GenPermIterate.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\02.GenPermIterate\bin\Debug\02.GenPermIterate.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\02.GenPermIterate\obj\Debug\02.GenPermIterate.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\Algorithms - September 2015\02.Combinatorial Algorithms\HW-CombinatorialAlg\02.GenPermIterate\obj\Debug\02.GenPermIterate.pdb
