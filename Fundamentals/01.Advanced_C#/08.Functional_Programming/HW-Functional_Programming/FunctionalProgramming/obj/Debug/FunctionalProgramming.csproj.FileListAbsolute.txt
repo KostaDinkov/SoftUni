@@ -1,0 +1,11 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\01.ClassStudent\bin\Debug\01.ClassStudent.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\01.ClassStudent\bin\Debug\01.ClassStudent.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\01.ClassStudent\bin\Debug\01.ClassStudent.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\01.ClassStudent\obj\Debug\01.ClassStudent.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\01.ClassStudent\obj\Debug\01.ClassStudent.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\FunctionalProgramming\bin\Debug\01.ClassStudent.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\FunctionalProgramming\obj\Debug\01.ClassStudent.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\FunctionalProgramming\obj\Debug\01.ClassStudent.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\FunctionalProgramming\bin\Debug\01.ClassStudent.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\FunctionalProgramming\bin\Debug\01.ClassStudent.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\08.Functional_Programming\HW-Functional_Programming\FunctionalProgramming\obj\Debug\FunctionalProgramming.csprojResolveAssemblyReference.cache
