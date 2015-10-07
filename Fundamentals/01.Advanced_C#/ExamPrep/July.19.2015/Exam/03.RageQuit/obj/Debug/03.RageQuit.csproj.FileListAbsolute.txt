@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\03.RageQuit\bin\Debug\03.RageQuit.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\03.RageQuit\bin\Debug\03.RageQuit.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\03.RageQuit\bin\Debug\03.RageQuit.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\03.RageQuit\obj\Debug\03.RageQuit.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\03.RageQuit\obj\Debug\03.RageQuit.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\03.RageQuit\obj\Debug\03.RageQuit.pdb

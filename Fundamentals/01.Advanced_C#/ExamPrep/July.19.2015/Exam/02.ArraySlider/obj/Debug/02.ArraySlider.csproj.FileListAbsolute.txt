@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\02.ArraySlider\bin\Debug\02.ArraySlider.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\02.ArraySlider\bin\Debug\02.ArraySlider.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\02.ArraySlider\bin\Debug\02.ArraySlider.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\02.ArraySlider\obj\Debug\02.ArraySlider.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\02.ArraySlider\obj\Debug\02.ArraySlider.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\July.19.2015\Exam\02.ArraySlider\obj\Debug\02.ArraySlider.pdb
