@@ -1,0 +1,8 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\bin\Debug\03.TextTransformer.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\bin\Debug\03.TextTransformer.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\bin\Debug\03.TextTransformer.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\bin\Debug\EntityFramework.dll
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\bin\Debug\EntityFramework.xml
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\obj\Debug\03.TextTransformer.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\obj\Debug\03.TextTransformer.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\03.TextTransformer\obj\Debug\03.TextTransformer.pdb

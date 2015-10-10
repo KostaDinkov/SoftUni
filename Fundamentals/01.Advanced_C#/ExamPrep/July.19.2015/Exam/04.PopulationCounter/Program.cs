@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 
 
@@ -10,12 +9,12 @@ namespace _04.PopulationCounter
     {
         static void Main()
         {
-            string filepath = "../../input.txt";
+            //string filepath = "../../input.txt";
             var countryList = new Dictionary<string,Dictionary<string,long>>() ;
 
-            using (TextReader reader = new StreamReader(filepath))
+            //using (TextReader reader = new StreamReader(filepath))
             {
-                Console.SetIn(reader);
+                //Console.SetIn(reader);
                 //populate data
                 
                 string line;
@@ -40,11 +39,11 @@ namespace _04.PopulationCounter
 
                 foreach (var keyValuePair in sortedList)
                 {
-                    Console.WriteLine($"{keyValuePair.Key} (population: {keyValuePair.Value.Sum(city => city.Value)})");
+                    Console.WriteLine($"{keyValuePair.Key} (total population: {keyValuePair.Value.Sum(city => city.Value)})");
                     var sortedCities = keyValuePair.Value.OrderByDescending(city => city.Value);
                     foreach (var city in sortedCities)
                     {
-                        Console.WriteLine($"=>{city.Value}: {city.Key}");
+                        Console.WriteLine($"=>{city.Key}: {city.Value}");
                     }
                 }
                 
@@ -53,30 +52,4 @@ namespace _04.PopulationCounter
         }
     }
 
-    class Country
-    {
-        public string Name { get; set; }
-        public Dictionary<string, int> CityPopulation { get; set; }
-
-        public Country(string name)
-        {
-            Name = name;
-            CityPopulation = new Dictionary<string, int>();
-            
-        }
-        public  int GetTotalPopulation()
-        {
-            return CityPopulation.Select(city => city.Value).Sum();
-        }
-
-        public void AddCityPopulation(string city, int population)
-        {
-            CityPopulation.Add(city,population);
-        }
-
-        public void SortCitiesByPopulation()
-        {
-            CityPopulation = CityPopulation.OrderByDescending(city => city.Key).ToDictionary(x=>x.Key,y=>y.Value);
-        }
-    }
 }

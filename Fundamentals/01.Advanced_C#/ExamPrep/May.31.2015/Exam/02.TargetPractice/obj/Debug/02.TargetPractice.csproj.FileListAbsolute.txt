@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\02.TargetPractice\bin\Debug\02.TargetPractice.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\02.TargetPractice\bin\Debug\02.TargetPractice.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\02.TargetPractice\bin\Debug\02.TargetPractice.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\02.TargetPractice\obj\Debug\02.TargetPractice.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\02.TargetPractice\obj\Debug\02.TargetPractice.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\01.Advanced_C#\ExamPrep\May.31.2015\Exam\02.TargetPractice\obj\Debug\02.TargetPractice.csprojResolveAssemblyReference.cache
