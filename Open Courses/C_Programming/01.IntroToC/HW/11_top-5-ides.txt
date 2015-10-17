@@ -1,0 +1,23 @@
+Note:For better reading experience view the pdf version.
+
+My Top Five C/C++ IDEs 
+ 
+ As a part of the “Introduction To C” Homework.  
+Problem 11. Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Eclipse. Write in a text file called "list-of-IDEs.txt" at least five IDEs along with 2-3 sentences about each of them. Use English. 
+
+1. MS Visual Studio 
+My personal favorite. The ability to make decisions on what functions and methods to use based on intellisense is a powerful feature that many would find useful, if not life changing. Automatic code formatting is a very handy feature too. Offers extensibility. And many more good stuff. 
+
+2. JetBrains CLion 
+Actually besides Visual Studio, this is another favorite tool. I use it on Linux. Lightweight compared to VS. It is quick and intuitive to get into. If you have background with intellij /R# the learning curve is quite low. Offers CMake support. Does a great job picking up subtle little issues in code. Nice Vim mode. It is pretty new IDE – 2015, so it’s not very popular yet. The bad: it is not free, but adds includes automatically. . 
+
+3. NetBeans 
+This program is extensible and free, and it compiles code which is a bonus. When installing Netbeans it comes with a Java server called GlassFish that you could deploy on your computer for your testing environment. This server is the second biggest server for Java next to WebSphere. Some of the good features : extensible and free. 
+
+4. Eclipse 
+Besides being the number on way to develop Android applications via the Android SDK, it is fully extensible to use languages such as Ruby, C, C++ and many, many, more. The languages mentioned are not limited by Microsoft and anyone is free to develop plug-ins for different languages and to make the development environment easier to use. Also, the ability to use this on Linux is a great sway for many people who don’t like to be bound by Microsoft’s operating systems and like full control of their OS. But with so much available to upgrade and add on, the learning curve of Eclipse is kind of steep. 
+
+5. Gedit 
+Although not an IDE, gedit is the official editor of the gnome desktop and comes installed once the system is setup. Very useful tool for the user that is casually editing code and not undertaking major projects. Gedit offers the ability to highlight your code and figure out where the bugs are by giving you a fresh perspective. The editor doesn’t compile code, but comes with integrated terminal window which makes it very comfortable for the user to execute the arcane compiler commands. 
+  
+

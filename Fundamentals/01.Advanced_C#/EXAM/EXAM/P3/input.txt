@@ -1,0 +1,27 @@
+﻿using System;
+
+class MegaCode
+{
+    static void Main()
+    {
+        double;
+        int;
+        
+        {
+            Console.WriteLine("Pork you, Google!");
+        }
+        int;
+    }
+
+    static void MegaOptimize(megaInt)
+    {
+        double;
+        
+        {
+            megaInt++;
+        }
+    }
+}
+//END_OF_CODE
+
+

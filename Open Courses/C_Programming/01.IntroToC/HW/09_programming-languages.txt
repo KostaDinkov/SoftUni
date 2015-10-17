@@ -1,0 +1,21 @@
+Note:For better reading experience view the pdf version.
+
+A brief comparison of a few programming languages  
+
+As a part of the “Introduction To C” Homework. 
+Problem 9 : Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C? How do they differ from C? Write in a text file called "programming-languages.txt" at least five languages along with 2-3 sentences about each of them. Use English. 
+
+After reading and browsing the internet for a few hours I have decided to compare some languages that I myself am somewhat familiar with. These are C#, Java, Python, Ruby and C. The review is focused specifically on the scope of education and the use in classroom. The statements below are subjective, but I have tried to take into consideration a large volume of available resources. There are three criteria that I have based my comparison on : Language Syntax, Language Semantics and Existing Knowledge. 
+
+Language Syntax 
+
+By my estimation Ruby and Python are the winners in this category. They both have very elegant and understandable syntax which can be generally easy written and read. They both have type system favorable to education. C++ and C# are both highly verbose languages with many constructs and keywords required for even the most basic program. The basic C syntax is relatively simple, however its type system often leads to typecasting and other complex syntactic elements. C code can be written clearly, however due to the dependence on external libraries (including libc) which have few, if any, shared code conventions, and poor programming practice, it can sometimes be difficult to read C code. C is statically typed. C# has a good type system but it is also very large and complex, which may be daunting to new programmers. 
+
+Language Semantics 
+
+Again Ruby, Python and C# shine by this criteria. The code is easy to be reused, the languages provide a useful and consistent set of functional, imperative and object oriented constructs. Ruby provides fantastic set of available online libraries. My favorite though is C# - with the best development environment (Visual Studio) behind it’s back. C code tends to be very explicit, which makes reuse difficult. The language features do not make code reuse easy. 
+
+Existing Knowledge 
+
+There are people in education already well familiar with the C# language. Also there are available large amount of resources  - free courses , interactive tutorials and many more. The documentation is comprehensive and consistent and the community is one of the biggest. Ruby and Python fall behind in this category, although the number of well-prepared educators is rising. Their communities are fantastic places for new programmers. There are relatively few teachers with a comprehensive understanding of C and C++ and easy to understand documentation is almost non-existent. There are few, if any, cohesive communities for the purpose of education. 
+

@@ -1,0 +1,64 @@
+Note:For better reading experience view the pdf version.
+
+Compiled vs Interpreted Languages 
+
+As a part of the “Introduction To C” Homework. Problem 10. Compiled vs Interpreted Languages Perform a search online about compiled and interpreted programming languages. What is the difference between the two kinds? Give a few examples for each kind. Is C compiled or interpreted? 
+
+Compiled Language 
+
+In a compiled implementation of a language, a compiler will translate the program directly into code that is specific to the target machine, which is also known as machine code – basically code that is specific to a given processor and operating system. Then the computer will run the machine code on its own. 
+
+Interpreted Language 
+
+In an interpreted implementation of a language, the source code is not directly run by the target machine. What happens instead is that another program reads and then executes the original source code. This other program is also known as the interpreter. The interpreter is usually written specifically for the native machine. As an example, you could consider the multiplier operation – the “*”. If the interpreter sees this in your code, then at run time it would call its own definition of the multiplier function – maybe something called “multiply(x,y)”. And then that “multiply(x,y)” would execute the machine code’s equivalent of the multiply instruction. 
+In interpretation, the original source code is also typically converted into some intermediate code which is then processed by an interpreter that converts the intermediate code into machine specific code. 
+
+Advantages and Disadvantages 
+
+Because comparing compilation and interpretation is so dependent on the specific implementation of the interpreter and compiler, we can only compare compilation and interpretation in very general terms – there will be exceptions to what we say below, but in general these things are true: 
+
+Interpreted Languages 
+
+Advantages 
+  
+• easy to learn and use 
+
+• minimum programming knowledge or experience 
+
+• allows complex tasks to be performed in relatively few steps 
+
+• allows simple creation and editing in a variety of text editors 
+
+• allows the addition of dynamic and interactive activities to web pages 
+
+• edit and running of code is fast. 
+
+Disadvantages 
+
+• usually run quite slowly 
+
+• limited access to low level and speed optimization code. 
+
+• limited commands to run detailed operations on graphics 
+ 
+
+Compiled Languages 
+
+Advantages 
+  
+• fast execution 
+
+• optimised for the target hardware 
+
+Disadvantages 
+ 
+ • require a compiler 
+
+• editing and deploying the code is a lot slower than interpreters. 
+
+
+ 
+ 
+
+ 
+
