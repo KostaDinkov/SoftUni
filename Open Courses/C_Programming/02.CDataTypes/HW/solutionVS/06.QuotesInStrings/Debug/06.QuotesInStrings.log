@@ -1,0 +1,14 @@
+﻿Build started 19-10-2015 13:52.
+     1>Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\06.QuotesInStrings\06.QuotesInStrings.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt 06_quotes.c
+         06_quotes.c
+     1>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\02.cdatatypes\hw\01.declarevariables\06.quotesinstrings\06_quotes.c(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\06.QuotesInStrings.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\06.QuotesInStrings.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\06.QuotesInStrings.lib" /MACHINE:X86 Debug\06_quotes.obj
+         06.QuotesInStrings.vcxproj -> C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\06.QuotesInStrings.exe
+     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\06.QuotesInStrings\06.QuotesInStrings.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.84

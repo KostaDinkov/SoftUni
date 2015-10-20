@@ -1,0 +1,13 @@
+﻿Build started 18-10-2015 03:44.
+     1>Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\03.VariableInHex\03.VariableInHex.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt 03_variable_in_hex.c
+         03_variable_in_hex.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\03.VariableInHex.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\03.VariableInHex.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\03.VariableInHex.lib" /MACHINE:X86 Debug\03_variable_in_hex.obj
+         03.VariableInHex.vcxproj -> C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\Debug\03.VariableInHex.exe
+     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\02.CDataTypes\HW\01.DeclareVariables\03.VariableInHex\03.VariableInHex.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.27
