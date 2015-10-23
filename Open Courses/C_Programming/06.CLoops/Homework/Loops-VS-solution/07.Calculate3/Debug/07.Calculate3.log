@@ -1,0 +1,16 @@
+﻿Build started 23-10-2015 19:35.
+     1>Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\06.CLoops\Homework\Loops-VS-solution\07.Calculate3\07.Calculate3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt "07-calculate-3.c"
+         07-calculate-3.c
+     1>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\06.cloops\homework\loops-vs-solution\07.calculate3\07-calculate-3.c(25): warning C4087: 'GetInt': declared with 'void' parameter list
+     1>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\06.cloops\homework\loops-vs-solution\07.calculate3\07-calculate-3.c(26): warning C4087: 'GetInt': declared with 'void' parameter list
+     1>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\06.cloops\homework\loops-vs-solution\07.calculate3\07-calculate-3.c(32): warning C4027: function declared without formal parameter list
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\06.CLoops\Homework\Loops-VS-solution\Debug\07.Calculate3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\06.CLoops\Homework\Loops-VS-solution\Debug\07.Calculate3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\06.CLoops\Homework\Loops-VS-solution\Debug\07.Calculate3.lib" /MACHINE:X86 "Debug\07-calculate-3.obj"
+         07.Calculate3.vcxproj -> C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\06.CLoops\Homework\Loops-VS-solution\Debug\07.Calculate3.exe
+     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\06.CLoops\Homework\Loops-VS-solution\07.Calculate3\07.Calculate3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

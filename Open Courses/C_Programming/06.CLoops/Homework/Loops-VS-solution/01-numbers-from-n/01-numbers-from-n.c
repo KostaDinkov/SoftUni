@@ -9,12 +9,9 @@
 * Date:			23-10-2015
 */
 
-
-
-#include <stdio.h>;
+#include <stdio.h>
 
 int main(void) {
-
 	int numCount;
 	printf("Enter an integer: ");
 	scanf("%i", &numCount);

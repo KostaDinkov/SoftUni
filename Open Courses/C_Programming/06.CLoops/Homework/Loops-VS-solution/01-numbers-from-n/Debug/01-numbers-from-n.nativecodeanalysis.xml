@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\06.cloops\homework\loops-vs-solution\01-numbers-from-n\</FILEPATH><FILENAME>01-numbers-from-n.c</FILENAME><LINE>20</LINE><COLUMN>6</COLUMN></SFA><DEFECTCODE>6031</DEFECTCODE><DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION><FUNCTION>main</FUNCTION><DECORATED>main</DECORATED><FUNCLINE>16</FUNCLINE><PATH/></DEFECT></DEFECTS>
