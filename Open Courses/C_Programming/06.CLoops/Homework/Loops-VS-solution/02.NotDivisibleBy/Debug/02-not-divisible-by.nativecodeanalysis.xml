@@ -1,2 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\06.cloops\homework\loops-vs-solution\02.notdivisibleby\</FILEPATH><FILENAME>02-not-divisible-by.c</FILENAME><LINE>18</LINE><COLUMN>6</COLUMN></SFA><DEFECTCODE>6031</DEFECTCODE><DESCRIPTION>Return value ignored: 'scanf'.</DESCRIPTION><FUNCTION>main</FUNCTION><DECORATED>main</DECORATED><FUNCLINE>14</FUNCLINE><PATH/></DEFECT></DEFECTS>
