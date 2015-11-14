@@ -1,0 +1,13 @@
+﻿Build started 12-11-2015 20:13.
+     1>Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\01.Spy_Hard\01.Spy_Hard.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt spy_hard.c
+         spy_hard.c
+     1>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\exampreparation\c_exam_preparation\01.spy_hard\spy_hard.c(32): error C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _itoa. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdlib.h(1316): note: see declaration of 'itoa'
+     1>c:\users\kvdin\onedrive\softuni\softuni\open courses\c_programming\exampreparation\c_exam_preparation\01.spy_hard\spy_hard.c(122): warning C4018: '<': signed/unsigned mismatch
+     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\01.Spy_Hard\01.Spy_Hard.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.21

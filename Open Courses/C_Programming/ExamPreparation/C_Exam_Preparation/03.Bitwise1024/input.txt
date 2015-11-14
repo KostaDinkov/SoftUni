@@ -1,0 +1,15 @@
+1
+7
+left 1
+right 63
+end
+
+3
+23
+54
+17
+left 13
+left 4
+right 60
+left 9
+end
