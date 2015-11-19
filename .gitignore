@@ -52,3 +52,12 @@ Temporary Items
 *.doc
 *.docx
 *.pdf
+
+# Visual Studio
+*.suo
+*.csproj.user
+*.vbproj.user
+*.csproj.webinfo
+*.vbproj.webinfo
+.bin
+.debug
