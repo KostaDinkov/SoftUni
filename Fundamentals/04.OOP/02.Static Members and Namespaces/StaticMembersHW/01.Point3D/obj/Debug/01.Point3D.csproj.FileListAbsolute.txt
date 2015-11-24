@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\01.Point3D\bin\Debug\01.Point3D.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\01.Point3D\bin\Debug\01.Point3D.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\01.Point3D\bin\Debug\01.Point3D.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\01.Point3D\obj\Debug\01.Point3D.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\01.Point3D\obj\Debug\01.Point3D.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\01.Point3D\obj\Debug\01.Point3D.pdb

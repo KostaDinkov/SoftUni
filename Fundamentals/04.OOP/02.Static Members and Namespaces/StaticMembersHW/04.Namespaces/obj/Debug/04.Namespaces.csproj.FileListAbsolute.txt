@@ -1,0 +1,1 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\04.Namespaces\bin\Debug\04.Namespaces.exe.config

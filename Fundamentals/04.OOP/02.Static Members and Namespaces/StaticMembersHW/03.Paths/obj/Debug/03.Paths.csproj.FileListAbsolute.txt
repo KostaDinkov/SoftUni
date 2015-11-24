@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\03.Paths\bin\Debug\03.Paths.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\03.Paths\bin\Debug\03.Paths.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\03.Paths\bin\Debug\03.Paths.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\03.Paths\obj\Debug\03.Paths.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\03.Paths\obj\Debug\03.Paths.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\03.Paths\obj\Debug\03.Paths.pdb

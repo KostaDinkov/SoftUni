@@ -1,0 +1,5 @@
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\02.DistanceCalculator\bin\Debug\02.DistanceCalculator.pdb
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.exe
+C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Fundamentals\04.OOP\02.Static Members and Namespaces\StaticMembersHW\02.DistanceCalculator\obj\Debug\02.DistanceCalculator.pdb
