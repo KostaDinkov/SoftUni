@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\03.Exceptions\ExceptionsHW\02.EnterNumbers\bin\Debug\02.EnterNumbers.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\03.Exceptions\ExceptionsHW\02.EnterNumbers\bin\Debug\02.EnterNumbers.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\03.Exceptions\ExceptionsHW\02.EnterNumbers\bin\Debug\02.EnterNumbers.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\03.Exceptions\ExceptionsHW\02.EnterNumbers\obj\Debug\02.EnterNumbers.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\03.Exceptions\ExceptionsHW\02.EnterNumbers\obj\Debug\02.EnterNumbers.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\03.Exceptions\ExceptionsHW\02.EnterNumbers\obj\Debug\02.EnterNumbers.pdb

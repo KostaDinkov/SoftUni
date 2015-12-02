@@ -1,0 +1,5 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\02.Animals\bin\Debug\02.Animals.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\02.Animals\bin\Debug\02.Animals.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\02.Animals\bin\Debug\02.Animals.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\02.Animals\obj\Debug\02.Animals.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\02.Animals\obj\Debug\02.Animals.pdb

@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\03.CompanyHierarchy\bin\Debug\03.CompanyHierarchy.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\03.CompanyHierarchy\obj\Debug\03.CompanyHierarchy.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\03.CompanyHierarchy\obj\Debug\03.CompanyHierarchy.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\04.Inheritance and Abstraction\InheritanceAndAbstractionHW\03.CompanyHierarchy\obj\Debug\03.CompanyHierarchy.pdb

@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\02.Bank\bin\Debug\02.Bank.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\02.Bank\bin\Debug\02.Bank.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\02.Bank\bin\Debug\02.Bank.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\02.Bank\obj\Debug\02.Bank.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\02.Bank\obj\Debug\02.Bank.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\02.Bank\obj\Debug\2.Bank.csprojResolveAssemblyReference.cache

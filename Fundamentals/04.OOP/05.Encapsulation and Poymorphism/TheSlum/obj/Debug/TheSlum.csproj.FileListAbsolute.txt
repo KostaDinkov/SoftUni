@@ -1,0 +1,5 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\TheSlum-Skeleton\bin\Debug\TheSlum.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\TheSlum-Skeleton\bin\Debug\TheSlum.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\TheSlum-Skeleton\obj\Debug\TheSlum.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\TheSlum-Skeleton\obj\Debug\TheSlum.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\TheSlum-Skeleton\obj\Debug\TheSlum.pdb

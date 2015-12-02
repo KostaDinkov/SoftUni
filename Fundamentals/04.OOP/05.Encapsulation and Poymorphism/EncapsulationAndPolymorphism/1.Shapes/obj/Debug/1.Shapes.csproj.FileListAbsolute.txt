@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\1.Shapes\bin\Debug\1.Shapes.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\1.Shapes\bin\Debug\1.Shapes.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\1.Shapes\bin\Debug\1.Shapes.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\1.Shapes\obj\Debug\1.Shapes.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\1.Shapes\obj\Debug\1.Shapes.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\05.Encapsulation and Poymorphism\EncapsulationAndPolymorphism\1.Shapes\obj\Debug\1.Shapes.pdb

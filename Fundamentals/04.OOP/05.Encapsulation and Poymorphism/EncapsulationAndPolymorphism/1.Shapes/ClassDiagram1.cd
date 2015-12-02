@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_1.Shapes.BasicShape">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>BasicShape.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="_1.Shapes.Rhombus">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Rhombus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1.Shapes.Rectangle">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_1.Shapes.Circle" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>Circle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="_1.Shapes.IShape">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAA=</HashCode>
+      <FileName>IShape.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
