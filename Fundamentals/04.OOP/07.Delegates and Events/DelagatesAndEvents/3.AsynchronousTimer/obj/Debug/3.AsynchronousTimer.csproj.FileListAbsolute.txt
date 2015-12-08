@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\3.AsynchronousTimer\bin\Debug\3.AsynchronousTimer.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\3.AsynchronousTimer\bin\Debug\3.AsynchronousTimer.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\3.AsynchronousTimer\bin\Debug\3.AsynchronousTimer.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\3.AsynchronousTimer\obj\Debug\3.AsynchronousTimer.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\3.AsynchronousTimer\obj\Debug\3.AsynchronousTimer.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\3.AsynchronousTimer\obj\Debug\3.AsynchronousTimer.pdb

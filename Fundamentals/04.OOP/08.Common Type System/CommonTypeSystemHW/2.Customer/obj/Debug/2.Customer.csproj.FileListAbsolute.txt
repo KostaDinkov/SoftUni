@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\2.Customer\bin\Debug\2.Customer.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\2.Customer\bin\Debug\2.Customer.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\2.Customer\bin\Debug\2.Customer.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\2.Customer\obj\Debug\2.Customer.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\2.Customer\obj\Debug\2.Customer.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\2.Customer\obj\Debug\2.Customer.pdb

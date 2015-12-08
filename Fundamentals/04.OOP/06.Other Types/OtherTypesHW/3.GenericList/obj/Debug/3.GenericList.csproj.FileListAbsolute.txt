@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\3.GenericList\bin\Debug\3.GenericList.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\3.GenericList\bin\Debug\3.GenericList.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\3.GenericList\bin\Debug\3.GenericList.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\3.GenericList\obj\Debug\3.GenericList.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\3.GenericList\obj\Debug\3.GenericList.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\3.GenericList\obj\Debug\3.GenericList.pdb

@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\2.InterestCalculator\bin\Debug\2.InterestCalculator.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\2.InterestCalculator\bin\Debug\2.InterestCalculator.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\2.InterestCalculator\bin\Debug\2.InterestCalculator.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\2.InterestCalculator\obj\Debug\2.InterestCalculator.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\2.InterestCalculator\obj\Debug\2.InterestCalculator.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\2.InterestCalculator\obj\Debug\2.InterestCalculator.pdb

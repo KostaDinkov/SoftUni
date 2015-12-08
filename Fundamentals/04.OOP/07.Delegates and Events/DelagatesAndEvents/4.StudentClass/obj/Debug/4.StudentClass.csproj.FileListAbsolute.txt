@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\4.StudentClass\bin\Debug\4.StudentClass.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\4.StudentClass\bin\Debug\4.StudentClass.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\4.StudentClass\bin\Debug\4.StudentClass.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\4.StudentClass\obj\Debug\4.StudentClass.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\4.StudentClass\obj\Debug\4.StudentClass.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\4.StudentClass\obj\Debug\4.StudentClass.pdb

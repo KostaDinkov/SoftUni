@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\2.FractionCalculator\bin\Debug\2.FractionCalculator.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\2.FractionCalculator\bin\Debug\2.FractionCalculator.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\2.FractionCalculator\bin\Debug\2.FractionCalculator.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\2.FractionCalculator\obj\Debug\2.FractionCalculator.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\2.FractionCalculator\obj\Debug\2.FractionCalculator.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\2.FractionCalculator\obj\Debug\2.FractionCalculator.pdb

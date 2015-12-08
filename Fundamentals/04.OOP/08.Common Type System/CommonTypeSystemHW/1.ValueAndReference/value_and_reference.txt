@@ -1,0 +1,45 @@
+﻿•	Which .NET data types are value types? Which types are reference types?
+	Value types:
+	-All numeric data types
+	-Boolean, Char, and Date
+	-All structures, even if their members are reference types
+	-Enumerations, since their underlying type is always SByte, Short, Integer, Long, Byte, UShort, UInteger, or ULong
+
+	Reference types:
+	-String
+	-All arrays, even if their elements are value types
+	-Class types, such as Form
+	-Delegates
+
+•	How do value and reference types differ when assigned to a variable?
+	A data type is a value type if it holds the data within its own memory allocation. 
+	A reference type contains a pointer to another memory location that holds the data.
+
+•	How do value and reference types behave when passed as argument to a method?
+	Value types are passed as a copy and any changes made to them inside a method 
+	are only available in the scope and lifetime of this method (unless if they are passed by reference 
+	using the 'ref' or 'out' keywords). When a reference type is passed as an argument to a method, 
+	it actually means that the pointer to that type is passed, so any manipulation  directly affects
+	that type's data and the changes remain after the method returns
+	   
+•	Where in memory are value types allocated? Where are reference types allocated?
+	Value types : Stack
+	Ref types:	Heap
+
+•	What is data mutation? Can value types be mutated? Can reference types be mutated?
+	Mutable type, in C#, is a type of object whose data members, such as properties, 
+	data and fields, can be modified after its creation.
+	All string objects are immutable in C#. Objects of the class string, once created, 
+	can never represent any value other than the one they were constructed with. 
+	All operations that seem to "change" a string instead produce a new one. 
+	This is inefficient with memory, but extremely useful with regard to being able 
+	to trust that a string won't change out form under you- because as long as you 
+	don't change your reference, the string being referred to will never change.
+
+•	What is the difference between mutating and setting (assigning) a variable? Give examples.
+
+•	What are the out and ref keywords used for? In what do they differ?
+	Both are used when we want to pass a value type as a reference type in a method.
+	Difference is that the out keyword obligates us to make a change to the value passed by it.
+
+

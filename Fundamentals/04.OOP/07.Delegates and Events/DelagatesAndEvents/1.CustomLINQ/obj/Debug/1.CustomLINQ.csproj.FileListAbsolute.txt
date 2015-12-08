@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\1.CustomLINQ\bin\Debug\1.CustomLINQ.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\1.CustomLINQ\bin\Debug\1.CustomLINQ.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\1.CustomLINQ\bin\Debug\1.CustomLINQ.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\1.CustomLINQ\obj\Debug\1.CustomLINQ.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\1.CustomLINQ\obj\Debug\1.CustomLINQ.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\DelagatesAndEvents\1.CustomLINQ\obj\Debug\1.CustomLINQ.pdb

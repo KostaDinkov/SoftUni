@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\1.GalacticGPS\bin\Debug\1.GalacticGPS.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\1.GalacticGPS\bin\Debug\1.GalacticGPS.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\1.GalacticGPS\bin\Debug\1.GalacticGPS.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\1.GalacticGPS\obj\Debug\1.GalacticGPS.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\1.GalacticGPS\obj\Debug\1.GalacticGPS.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\06.Other Types\OtherTypesHW\1.GalacticGPS\obj\Debug\1.GalacticGPS.pdb

@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\1.ValueAndReference\bin\Debug\1.ValueAndReference.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\1.ValueAndReference\bin\Debug\1.ValueAndReference.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\1.ValueAndReference\bin\Debug\1.ValueAndReference.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\1.ValueAndReference\obj\Debug\1.ValueAndReference.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\1.ValueAndReference\obj\Debug\1.ValueAndReference.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\04.OOP\07.Delegates and Events\CommonTypeSystemHW\1.ValueAndReference\obj\Debug\1.ValueAndReference.pdb
