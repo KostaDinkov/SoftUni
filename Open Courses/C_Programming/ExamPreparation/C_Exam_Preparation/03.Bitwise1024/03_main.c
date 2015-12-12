@@ -12,113 +12,153 @@
 #include <limits.h>
 #include <string.h>
 #include <stdlib.h>
-#include <math.h>
-
 
 int GetInt(void);
 unsigned long long GetLongLong(void);
-char* GetString(void);
-char* ulToBin(unsigned long long val, unsigned long long base);
-unsigned long long ShiftLeft(int position, unsigned long long number);
-unsigned long long ShiftRight(int position, unsigned long long number);
+char *GetString(void);
+char *ulToBin(unsigned long long val, unsigned long long base);
+
+int ParseCommand(char *commandLine, char *command);
+unsigned long long ShiftLeft(unsigned long long number, int pivot);
+unsigned long long ShiftRight(unsigned long long number, int pivot);
+void PrintNumbers(unsigned long long *numbers, int numCount);
+
 
 int main()
 {
-	int numCount = GetInt();
-	unsigned long long* numbers = (unsigned long long*)malloc(sizeof(unsigned long long) * numCount);
+	size_t numCount = (size_t)GetInt();
+	unsigned long long *numbers = (unsigned long long *)malloc(numCount * sizeof(unsigned long long));
+
 	for (size_t i = 0; i < numCount; i++)
 	{
 		numbers[i] = GetLongLong();
 	}
 
 
-	char* command = GetString();
+	// Parse the commands
+
+	char command[10];
+	int pivot;
+	char *commandLine = GetString();
+	pivot = ParseCommand(commandLine, command);
+
+
 	while (strcmp(command, "end") != 0)
 	{
-		// parse command
-		char* directionEnd = strchr(command, ' ');
-		char direction[10];
-		int dirLen = directionEnd - command;
-		strncpy(direction, command, dirLen);
-		direction[dirLen] = '\0';
-		int position = strtol(directionEnd, NULL, 10);
-		for (size_t i = 0; i < numCount; i++)
+		if (strcmp(command, "left") == 0)
 		{
-			if (strcmp(direction, "left") == 0)
+			//for all the numbers
+			for (size_t numIndex = 0; numIndex < numCount; numIndex++)
 			{
-				numbers[i] = ShiftLeft(position, numbers[i]);
-			}
-
-			else
-			{
-				numbers[i] = ShiftRight(position, numbers[i]);
+				numbers[numIndex] = ShiftLeft(numbers[numIndex], pivot);
 			}
 		}
-		command = GetString();
+		if (strcmp(command, "right") == 0)
+		{
+			for (size_t numIndex = 0; numIndex < numCount; numIndex++)
+			{
+				numbers[numIndex] = ShiftRight(numbers[numIndex], pivot);
+			}
+		}
+
+		free(commandLine);
+		commandLine = GetString();
+		pivot = ParseCommand(commandLine, command);
 	}
-	//print results
+	PrintNumbers(numbers, numCount);
+	free(commandLine);
+	free(numbers);
+	return 0;
+}
+
+void PrintNumbers(unsigned long long *numbers, int numCount)
+{
 	for (size_t i = 0; i < numCount; i++)
 	{
 		printf("%llu\n", numbers[i]);
 	}
-	return 0;
 }
 
-unsigned long long ShiftLeft(int position, unsigned long long number)
+unsigned long long MoveBit(unsigned long long number, size_t bitIndex, int *lastFreePosition, int direction)
 {
-	// start at pos 63 
 	unsigned long long mask = 1;
-	int lastTakenPosition = 64;
-	char buffer[65];
-	for (int i = 63; i >= position; i--)
+	int bitAtPosition = (number >> bitIndex) & mask;
+
+	if (bitAtPosition == 1)
 	{
-		//if bit at position i = 1
-		if ((number >> i) & 1)
-		{
-			//set the last free position to the left to 1
-			number = number | (mask << (lastTakenPosition - 1));
-			//set the bit at position i to 0 
-			if(i!=63)number &= ~(mask << i);
-			//set the first free position to the right
-			lastTakenPosition--;
+		//clear bit at position bitIndex
+		number &= ~(mask << bitIndex);
 
-			_ui64toa(number, buffer, 2);
-		}
+		//set bit at lastFreePosition
+		number |= mask << *lastFreePosition;
+
+		//update the last free position
+		*lastFreePosition += direction;
 	}
-
+	//printf("Moving bit %d, - %s\n",bitIndex, ulToBin(number, 2)); // for debugging only
 	return number;
 }
 
-unsigned long long ShiftRight(int position, unsigned long long number)
+unsigned long long ShiftLeft(unsigned long long number, int pivot)
 {
-	// start at pos 0 
+	int lastFreePosition = 63;
 	unsigned long long mask = 1;
-	int lastTakenPosition = -1;
-	char buffer[65];
-	for (int i = 0; i <= position; i++)
-	{
-		//if bit at position i = 1
-		if ((number >> i) & 1)
-		{
-			//set the last free position to the left to 1
-			number = number | (mask << (lastTakenPosition + 1));
-			//set the bit at position i to 0 
-			if(i!=0)number &= ~(mask << i);
-			//set the first free position to the right
-			lastTakenPosition++;
 
-			_ui64toa(number, buffer, 2);
+	for (size_t i = 63; i >= 0; i--)
+	{
+		if (((number >> i) & mask) == 0)
+		{
+			lastFreePosition = i;
+			break;
 		}
 	}
 
+	//for every pivot from 63 to pivot
+	for (int i = lastFreePosition; i >= pivot; i--)
+	{
+		number = MoveBit(number, i, &lastFreePosition, -1);
+	}
 	return number;
+}
+
+unsigned long long ShiftRight(unsigned long long number, int pivot)
+{
+	int lastFreePosition = 0;
+	unsigned long long mask = 1;
+
+	for (size_t i = 0; i <= 63; i++)
+	{
+		if ((number >> i) & mask == 0)
+		{
+			lastFreePosition = i;
+		}
+	}
+
+	for (size_t i = 0; i <= pivot; i++)
+	{
+		number = MoveBit(number, i, &lastFreePosition, 1);
+	}
+	return number;
+}
+
+int ParseCommand(char *commandLine, char *command)
+{
+	int commandParam = 0;
+	char *token = strtok(commandLine, " ");
+	strcpy(command, token);
+	token = strtok(NULL, " ");
+	if (token != NULL)
+	{
+		commandParam = atoi(token);
+	}
+	return commandParam;
 }
 
 int GetInt(void)
 {
 	while (1)
 	{
-		char* line = GetString();
+		char *line = GetString();
 		if (line == NULL)
 		{
 			return INT_MAX ;
@@ -143,7 +183,7 @@ unsigned long long GetLongLong(void)
 {
 	while (1)
 	{
-		char* line = GetString();
+		char *line = GetString();
 		if (line == NULL)
 		{
 			return ULLONG_MAX ;
@@ -164,9 +204,9 @@ unsigned long long GetLongLong(void)
 	}
 }
 
-char* GetString(void)
+char *GetString(void)
 {
-	char* buffer = NULL;
+	char *buffer = NULL;
 
 	unsigned int capacity = 0;
 
@@ -192,7 +232,7 @@ char* GetString(void)
 				return NULL;
 			}
 
-			char* temp = (char *)realloc(buffer, capacity * sizeof(char));
+			char *temp = (char *)realloc(buffer, capacity * sizeof(char));
 			if (temp == NULL)
 			{
 				free(buffer);
@@ -209,7 +249,7 @@ char* GetString(void)
 		return NULL;
 	}
 
-	char* minimal = (char *)malloc((n + 1) * sizeof(char));
+	char *minimal = (char *)malloc((n + 1) * sizeof(char));
 	strncpy(minimal, buffer, n);
 	free(buffer);
 
@@ -218,11 +258,11 @@ char* GetString(void)
 	return minimal;
 }
 
-char* ulToBin(unsigned long long val, unsigned long long base)
+char *ulToBin(unsigned long long val, unsigned long long base)
 {
 	static char buf[64] = {0};
 
-	int i = 63;
+	int i = 64;
 
 	for (; val && i; --i , val /= base)
 	{

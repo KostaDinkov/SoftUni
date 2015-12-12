@@ -1,0 +1,35 @@
+© Software University Foundation (softuni.org). This work is licensed under the CC-BY-NC-SA license.
+Follow us: Page 1 of 2
+Problem 4 - File Chunk Swapper
+Write a C program that reads a file in chunks of 4096 bytes, swaps the first and second half and writes the result block to an output file.
+For example, given src.txt which contains the string "AAAAAAAAAAAABBBBBBBBBBBB", we start reading the file contents. On the very first read of 4096 bytes, we get the whole string. We locate the mid:
+AAAAAAAAAAAA | BBBBBBBBBBBB
+We then swap the two parts, resulting in:
+BBBBBBBBBBBBAAAAAAAAAAAA
+Finally, we write the result into the output file and continue with the next chunk from the source file (in this case, there are no more chunks to swap).
+Input
+The input will be read from the terminal. The input parameters will be the source file name and output file name. They will be space separated. See the examples given below.
+Output The resulting swapped chunks should be written to the passed output file.  In case of success, print "Success!" at the end of the program  In case of invalid input, print "Usage: <src-file> <dest-file>"  In case of invalid file names, print "{file-name}: No such file or directory" See the examples given below.
+Constraints
+ The program should display no memory leaks, buffer overflows or dangling pointer anomalies.
+Examples Input from Terminal Output ./program src.txt dest.txt
+Success! src.txt dest.txt
+AAAAAAAAAAAABBBBBBBBBBBB
+BBBBBBBBBBBBAAAAAAAAAAAA
+Input from Terminal Output ./program src.txt dest.txt
+Success! src.txt dest.txt
+© Software University Foundation (softuni.org). This work is licensed under the CC-BY-NC-SA license.
+Follow us: Page 2 of 2
+batka tkaba
+Input from Terminal Output
+./program src.txt Usage: <src-file> <dest-file>
+src.txt ???
+baceto
+Input from Terminal Output
+./program Usage: <src-file> <dest-file>
+??? ???
+Input from Terminal Output
+./program src.txt dest.txt
+(src.txt or dest.txt do not exist)
+src.txt: No such file or directory
+??? ???

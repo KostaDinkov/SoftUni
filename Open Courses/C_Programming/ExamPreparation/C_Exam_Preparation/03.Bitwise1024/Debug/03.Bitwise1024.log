@@ -1,9 +1,18 @@
-﻿Build started 14-11-2015 00:28.
-     1>Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\03.Bitwise1024\03.Bitwise1024.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         03.Bitwise1024.vcxproj -> C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\Debug\03.Bitwise1024.exe
-     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\03.Bitwise1024\03.Bitwise1024.vcxproj" (Build target(s)).
+﻿Build started 12-12-2015 16:28.
+     1>Project "C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\03.Bitwise1024\03.Bitwise1024.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _CRT_NONSTDC_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt 03_main.c
+         03_main.c
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\exampreparation\c_exam_preparation\03.bitwise1024\03_main.c(76): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\exampreparation\c_exam_preparation\03.bitwise1024\03_main.c(85): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\exampreparation\c_exam_preparation\03.bitwise1024\03_main.c(131): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\exampreparation\c_exam_preparation\03.bitwise1024\03_main.c(137): warning C4018: '<=': signed/unsigned mismatch
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\exampreparation\c_exam_preparation\03.bitwise1024\03_main.c(269): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\Debug\03.Bitwise1024.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\Debug\03.Bitwise1024.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\Debug\03.Bitwise1024.lib" /MACHINE:X86 Debug\03_main.obj
+         03.Bitwise1024.vcxproj -> C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\Debug\03.Bitwise1024.exe
+     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamPreparation\C_Exam_Preparation\03.Bitwise1024\03.Bitwise1024.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.20
+Time Elapsed 00:00:00.42
