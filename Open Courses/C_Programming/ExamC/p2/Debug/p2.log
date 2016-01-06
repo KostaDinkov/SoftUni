@@ -1,0 +1,18 @@
+﻿Build started 13-12-2015 14:17.
+     1>Project "C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\p2\p2.vcxproj" on node 3 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\examc\p2\main.c(21): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\examc\p2\main.c(39): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\examc\p2\main.c(46): warning C4018: '<': signed/unsigned mismatch
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\examc\p2\main.c(83): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+     1>c:\users\kvdin\onedrive\softuni\open courses\c_programming\examc\p2\main.c(100): warning C4554: '<<': check operator precedence for possible error; use parentheses to clarify precedence
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\Debug\p2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\Debug\p2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\Debug\p2.lib" /MACHINE:X86 Debug\main.obj
+         p2.vcxproj -> C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\Debug\p2.exe
+     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\p2\p2.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.21

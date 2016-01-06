@@ -1,0 +1,15 @@
+﻿Build started 13-12-2015 14:16.
+     1>Project "C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\p3\p3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>main.c(37): warning C4244: 'function': conversion from 'unsigned __int64' to 'long', possible loss of data
+     1>main.c(28): warning C4047: 'initializing': 'unsigned __int64' differs in levels of indirection from 'char *'
+     1>main.c(29): warning C4047: 'initializing': 'unsigned __int64' differs in levels of indirection from 'char *'
+     1>main.c(31): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+     1>Done Building Project "C:\Users\kvdin\OneDrive\SoftUni\Open Courses\C_Programming\ExamC\p3\p3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

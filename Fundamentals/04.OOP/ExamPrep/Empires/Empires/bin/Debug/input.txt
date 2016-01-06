@@ -1,0 +1,7 @@
+build barracks
+build archery
+empire-status
+skip
+skip
+empire-status
+armistice

@@ -8,10 +8,45 @@
 int GetInt(void);
 unsigned long long GetLongLong(void);
 char* GetString(void);
+#define BUFFER_SIZE 16
 
 
-int main()
+void PrintError(char*msg)
 {
+	printf("%s: No such file or directory\n",msg);
+}
+
+void SwapBuffer(char buffer[16])
+{
+	char tmp[8];
+	memcpy(tmp, buffer, 8);
+	memmove(buffer, &buffer[8], 8);
+	memcpy(buffer, tmp, 8);
+}
+int main(int argv, char*argc[])
+{
+	unsigned long long offset = argc[2];
+	unsigned long long repairSize = argc[3];
+	char* fileName = argc[1];
+	FILE *file = fopen(fileName, "r+b");
+	if (file == NULL) 
+	{
+		PrintError(fileName);
+		exit(1);
+	}
+	fseek(file, offset, SEEK_SET);
+
+	for (size_t i = 0; i < repairSize / 16; i++)
+	{
+		char buffer[BUFFER_SIZE];
+		
+		fread(buffer, 1, BUFFER_SIZE, file);
+		SwapBuffer(buffer);
+		fseek(file, -16, SEEK_CUR);
+		fwrite(buffer, 1, BUFFER_SIZE, file);
+
+	}
+	fclose(file);
 	return 0;
 }
 

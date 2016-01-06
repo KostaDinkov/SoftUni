@@ -2,6 +2,7 @@
 #include <limits.h>
 #include <string.h>
 #include <stdlib.h>
+#include <ctype.h>
 #include <math.h>
 
 // Prototypes
@@ -10,11 +11,80 @@ unsigned long long GetLongLong(void);
 char* GetString(void);
 
 
+unsigned long long CalculateTime(char string[51]);
+
 int main()
 {
+	int passwordCount = GetInt();
+	char ** passwords = (char**)malloc(passwordCount * sizeof(char*));
+	unsigned long long totalTime = 0;
+	int totalCracked = 0;
+	// for each line
+	for (size_t i = 0; i < passwordCount; i++)
+	{
+		//parse it
+		char * line = GetString();
+		unsigned long long timeLimit;
+		char *token = strtok(line, " ");
+		timeLimit = strtoull(token, NULL, 0);
+		totalTime += timeLimit;
+		token = strtok(NULL, " ");
+		passwords[i] = (char*)malloc(strlen(token) + 1);
+		strcpy(passwords[i], token);
+				
+	}
+	/*for (size_t i = 0; i < passwordCount; i++)
+	{
+		printf("%s\n", passwords[i]);
+	}*/
+	for (size_t i = 0; i < passwordCount; i++)
+	{
+		int time = CalculateTime(passwords[i]);
+		//compare
+		if(time <=totalTime)
+		{
+			totalCracked++;
+			printf("Password \"%s\" successfully cracked!\n", passwords[i]);
+		}
+		else
+		{
+			printf("Could not crack password \"%s\". %lu more seconds needed.\n",passwords[i],time-totalTime);
+		}
+	}
+	double successRate = (double)totalCracked / passwordCount;
+	printf("%.2f%% of all passwords were cracked\n", successRate*100);
+	
 	return 0;
 }
 
+unsigned long long CalculateTime(char *string)
+{
+	unsigned long long totalSeconds = 0;
+	int strLen = strlen(string);
+	
+	for (size_t i = 0; i < strLen; i++)
+	{
+
+		//if char is digit
+		if(isdigit(string[i]))
+		{
+			totalSeconds += 2;
+		}
+		else if(isalpha(string[i]))
+		{
+			totalSeconds += (int)string[i];
+		}
+		else
+		{
+			if(string[i]!=NULL)
+			{
+				totalSeconds *= 2;
+			}
+		}
+		//else 
+	}
+	return totalSeconds;
+}
 
 int GetInt(void)
 {
