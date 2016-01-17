@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\09.Code-Tunning-and-Optimization\Problem2.Performance_of_operations_v.2\bin\Debug\Problem2.Performance_of_operations_v.2.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\09.Code-Tunning-and-Optimization\Problem2.Performance_of_operations_v.2\bin\Debug\Problem2.Performance_of_operations_v.2.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\09.Code-Tunning-and-Optimization\Problem2.Performance_of_operations_v.2\bin\Debug\Problem2.Performance_of_operations_v.2.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\09.Code-Tunning-and-Optimization\Problem2.Performance_of_operations_v.2\obj\Debug\Problem2.Performance_of_operations_v.2.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\09.Code-Tunning-and-Optimization\Problem2.Performance_of_operations_v.2\obj\Debug\Problem2.Performance_of_operations_v.2.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\09.Code-Tunning-and-Optimization\Problem2.Performance_of_operations_v.2\obj\Debug\Problem2.Performance_of_operations_v.2.pdb

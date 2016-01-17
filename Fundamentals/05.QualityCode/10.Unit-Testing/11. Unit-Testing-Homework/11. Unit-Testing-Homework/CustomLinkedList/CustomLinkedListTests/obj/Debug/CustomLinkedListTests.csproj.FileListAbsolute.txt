@@ -1,0 +1,9 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\bin\Debug\CustomLinkedListTests.dll
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\bin\Debug\CustomLinkedListTests.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\bin\Debug\CustomLinkedList.dll
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\bin\Debug\CustomLinkedList.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\obj\Debug\CustomLinkedListTests.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\obj\Debug\CustomLinkedListTests.dll
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\obj\Debug\CustomLinkedListTests.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\10.Unit-Testing\11. Unit-Testing-Homework\11. Unit-Testing-Homework\CustomLinkedList\CustomLinkedListTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml

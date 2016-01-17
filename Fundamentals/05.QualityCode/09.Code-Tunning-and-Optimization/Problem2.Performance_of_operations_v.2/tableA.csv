@@ -1,0 +1,8 @@
+n= 1000000,Int,Long,Float,Double,Decimal
+Addition,4.3293,7.4877,5.7733,6.9834,31.5176
+Subtraction,4.6139,5.2299,4.1429,4.3813,24.4225
+Multiplication,4.345,7.8194,4.2267,4.4677,25.0586
+Division,5.9534,11.0303,6.4484,6.3842,41.3381
+Incrementation prefix ++,4.529,6.4178,4.6725,4.7433,32.9429
+Incrementation postfix ++,4.5596,5.9852,4.6421,4.8094,39.6129
+Incrementation shorthand += ,4.4098,6.087,4.6433,5.1357,25.0379
