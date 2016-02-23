@@ -1,0 +1,8 @@
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\bin\Debug\LoggerUsageExample.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\bin\Debug\LoggerUsageExample.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\bin\Debug\LoggerUsageExample.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\bin\Debug\Logger.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\bin\Debug\Logger.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\obj\Debug\LoggerUsageExample.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\obj\Debug\LoggerUsageExample.exe
+C:\Users\kvdin\OneDrive\SoftUni\Fundamentals\05.QualityCode\13.Solid-and-other-Principles\Logger\LoggerUsageExample\obj\Debug\LoggerUsageExample.pdb

@@ -1,0 +1,51 @@
+Problem 1.	Add(T) Complexity
+	Calculate the expected running time O(f(n)) of the Add(T) operation in the above code in the worst case.
+	Operations:
+	- Create new array - 1 operation
+	- Copy old array to new array - old array.Length operations
+	- Add the new element at the end of new array - 1 operations
+	- Change the reference from old array to new array - 1 operation
+	Summary: 3+n operations
+	Complexity: O(n)
+	- if the Add(T) method doubled the capacity of the underlying array when the array was full, 
+	then the operation could have been O(1)
+	
+Problem 2.	Remove(index) Complexity - Worst Case
+	Calculate the expected running time O(f(n)) of the Remove(index) operation in the worst case.
+	Complexity: O(n)
+
+	Problem 3.	Remove(index) Complexity - Best Case
+	Calculate the expected running time O(f(n)) of the Remove(index) operation in the best case.
+	Complexity: O(n)
+
+Problem 4.	Remove(index) Complexity - Average Case
+	Calculate the expected running time O(f(n)) of the Remove(index) operation in the average case.
+	Complexity: O(n) 
+	-explanation: no matter where the index is (unless the index id out of range), 
+	we make roughly n operations while copying the elements from one array to the other.
+	From MSDN Array.Copy() method is an O(n) operation.
+	
+Problem 5.	RemoveFirst(T) Complexity
+	Calculate the expected running time O(f(n)) of the RemoveFirst(T) operation. Submit the result in a text file.
+	Complexity: O(n) - it just calls Remove(index)
+	
+Problem 6.	RemoveLast(T) Complexity
+	Calculate the expected running time O(f(n)) of the RemoveLast(T) operation. Submit the result in a text file.
+	Complexity: O(n) - same as above
+	
+Problem 7.	Length Complexity
+	Calculate the expected running time O(f(n)) of the Length operation. Submit the result in a text file.
+	Complexity: O(1)
+	- explanation: Array.Length is a property holding the length of the array, so calling it is a constant time operation
+	
+Problem 8.	This[index] Complexity
+	Calculate the expected running time O(f(n)) of the operation this[index]. Submit the result in a text file.
+	Complexity: O(1)
+	
+Problem 9.	First Complexity
+	Calculate the expected running time O(f(n)) of the First operation. Submit the result in a text file.
+	Complexity: O(1)
+	
+Problem 10.	Last Complexity
+	Calculate the expected running time O(f(n)) of the Last operation. Submit the result in a text file.
+	Complexity: O(1)

@@ -7,11 +7,18 @@
     [TestClass]
     public class DynamicListTests
     {
+        private DynamicList<int> list;
+
+        [TestInitialize]
+        public void TestInit()
+        {
+            list = new DynamicList<int>();
+        }
+
         [TestMethod]
         [ExpectedException(typeof (ArgumentOutOfRangeException))]
         public void DynamicList_AccessByIndex_ShouldThrowException()
         {
-            var list = new DynamicList<int>();
             list.Add(5);
             var result = list[1];
         }
@@ -19,7 +26,6 @@
         [TestMethod]
         public void Add()
         {
-            var list = new DynamicList<int>();
             list.Add(5);
             list.Add(10);
             list.Add(11);
@@ -32,7 +38,6 @@
         [TestMethod]
         public void RemoveAt()
         {
-            var list = new DynamicList<int>();
             list.Add(5);
             list.Add(1);
             list.Add(4);
@@ -47,7 +52,6 @@
         public void RemoveAt_InvalidIndex_ShouldThrowException()
         {
             //Test with Integer 
-            var list = new DynamicList<int>();
             list.Add(5);
             list.Add(1);
             list.Add(4);
@@ -58,7 +62,6 @@
         [TestMethod]
         public void Remove()
         {
-            var list = new DynamicList<int>();
             list.Add(5);
             list.Add(1);
             list.Add(4);
@@ -72,7 +75,6 @@
         [ExpectedException(typeof (ArgumentOutOfRangeException))]
         public void Remove_InvalidIndex_ShouldThrowException()
         {
-            var list = new DynamicList<int>();
             list.Add(5);
             list.Add(1);
             list.Add(4);
@@ -84,12 +86,11 @@
         public void IndexOfTest()
         {
             //Case with Integer
-            var listInt = new DynamicList<int>();
-            listInt.Add(5);
-            listInt.Add(1);
-            listInt.Add(4);
+            list.Add(5);
+            list.Add(1);
+            list.Add(4);
 
-            var case1 = listInt.IndexOf(4);
+            var case1 = list.IndexOf(4);
 
             Assert.AreEqual(2, case1, "Wrong results with integer data type");
 
@@ -108,7 +109,6 @@
         public void ContainsTest()
         {
             // Case with Integer
-            var list = new DynamicList<int>();
             list.Add(5);
             list.Add(1);
             list.Add(4);
@@ -135,15 +135,11 @@
         [TestMethod]
         public void CountTest()
         {
-            var list = new DynamicList<int>();
-            for (var i = 0; i < 20; i++)
-            {
-                list.Add(i);
-            }
-
+            list.Add(1);
+            
             var case1 = list.Count;
 
-            Assert.AreEqual(20, case1,
+            Assert.AreEqual(1, case1,
                 "Returned value of DynamicList.Count doesn't correspond to actual added elements");
         }
     }
