@@ -1,6 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Softuniada\SoftUniadaPrep\Min3Numbers\bin\Debug\Min3Numbers.exe.config
-C:\Users\kvdin\OneDrive\SoftUni\Softuniada\SoftUniadaPrep\Min3Numbers\bin\Debug\Min3Numbers.exe
-C:\Users\kvdin\OneDrive\SoftUni\Softuniada\SoftUniadaPrep\Min3Numbers\bin\Debug\Min3Numbers.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Softuniada\SoftUniadaPrep\Min3Numbers\obj\Debug\Min3Numbers.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Softuniada\SoftUniadaPrep\Min3Numbers\obj\Debug\Min3Numbers.exe
-C:\Users\kvdin\OneDrive\SoftUni\Softuniada\SoftUniadaPrep\Min3Numbers\obj\Debug\Min3Numbers.pdb

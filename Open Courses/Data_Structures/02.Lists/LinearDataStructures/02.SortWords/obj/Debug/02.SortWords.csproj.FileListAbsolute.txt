@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\02.SortWords\bin\Debug\02.SortWords.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\02.SortWords\bin\Debug\02.SortWords.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\02.SortWords\bin\Debug\02.SortWords.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\02.SortWords\obj\Debug\02.SortWords.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\02.SortWords\obj\Debug\02.SortWords.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\02.SortWords\obj\Debug\02.SortWords.csprojResolveAssemblyReference.cache

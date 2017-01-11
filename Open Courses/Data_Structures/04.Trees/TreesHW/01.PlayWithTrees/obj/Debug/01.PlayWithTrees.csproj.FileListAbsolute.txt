@@ -1,0 +1,7 @@
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\TreesHW\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\TreesHW\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\TreesHW\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\TreesHW\01.PlayWithTrees\bin\Debug\01.PlayWithTrees.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\TreesHW\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\TreesHW\01.PlayWithTrees\obj\Debug\01.PlayWithTrees.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\TreesHW\01.PlayWithTrees\bin\Debug\input.txt

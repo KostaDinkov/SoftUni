@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p05_ChangeTownNameCasing\bin\Debug\p05_ChangeTownNameCasing.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p05_ChangeTownNameCasing\bin\Debug\p05_ChangeTownNameCasing.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p05_ChangeTownNameCasing\bin\Debug\p05_ChangeTownNameCasing.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p05_ChangeTownNameCasing\obj\Debug\p05_ChangeTownNameCasing.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p05_ChangeTownNameCasing\obj\Debug\p05_ChangeTownNameCasing.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p05_ChangeTownNameCasing\obj\Debug\p05_ChangeTownNameCasing.pdb

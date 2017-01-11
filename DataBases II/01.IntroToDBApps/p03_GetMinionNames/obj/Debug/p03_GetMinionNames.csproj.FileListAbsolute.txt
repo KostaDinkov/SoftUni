@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p03_GetMinionNames\bin\Debug\p03_GetMinionNames.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p03_GetMinionNames\bin\Debug\p03_GetMinionNames.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p03_GetMinionNames\bin\Debug\p03_GetMinionNames.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p03_GetMinionNames\obj\Debug\p03_GetMinionNames.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p03_GetMinionNames\obj\Debug\p03_GetMinionNames.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p03_GetMinionNames\obj\Debug\p03_GetMinionNames.pdb

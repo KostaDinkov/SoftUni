@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p01_InitialSetup\bin\Debug\p01_InitialSetup.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p01_InitialSetup\bin\Debug\p01_InitialSetup.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p01_InitialSetup\bin\Debug\p01_InitialSetup.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p01_InitialSetup\obj\Debug\p01_InitialSetup.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p01_InitialSetup\obj\Debug\p01_InitialSetup.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p01_InitialSetup\obj\Debug\p01_InitialSetup.pdb

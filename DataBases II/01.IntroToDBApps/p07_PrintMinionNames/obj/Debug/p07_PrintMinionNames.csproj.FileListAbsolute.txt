@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p07_PrintMinionNames\bin\Debug\p07_PrintMinionNames.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p07_PrintMinionNames\bin\Debug\p07_PrintMinionNames.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p07_PrintMinionNames\bin\Debug\p07_PrintMinionNames.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p07_PrintMinionNames\obj\Debug\p07_PrintMinionNames.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p07_PrintMinionNames\obj\Debug\p07_PrintMinionNames.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p07_PrintMinionNames\obj\Debug\p07_PrintMinionNames.pdb

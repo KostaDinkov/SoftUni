@@ -1,0 +1,5 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p09_IncreaseAgeSP\bin\Debug\p09_IncreaseAgeSP.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p09_IncreaseAgeSP\bin\Debug\p09_IncreaseAgeSP.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p09_IncreaseAgeSP\bin\Debug\p09_IncreaseAgeSP.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p09_IncreaseAgeSP\obj\Debug\p09_IncreaseAgeSP.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p09_IncreaseAgeSP\obj\Debug\p09_IncreaseAgeSP.pdb

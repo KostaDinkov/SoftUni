@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\07.LinkedList\bin\Debug\07.LinkedList.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\07.LinkedList\bin\Debug\07.LinkedList.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\07.LinkedList\bin\Debug\07.LinkedList.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\07.LinkedList\obj\Debug\07.LinkedList.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\07.LinkedList\obj\Debug\07.LinkedList.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\07.LinkedList\obj\Debug\07.LinkedList.pdb

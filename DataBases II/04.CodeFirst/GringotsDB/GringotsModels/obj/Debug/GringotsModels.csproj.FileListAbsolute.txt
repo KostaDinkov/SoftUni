@@ -1,0 +1,5 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\04.CodeFirst\GringotsDB\GringotsModels\bin\Debug\GringotsModels.dll
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\04.CodeFirst\GringotsDB\GringotsModels\bin\Debug\GringotsModels.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\04.CodeFirst\GringotsDB\GringotsModels\obj\Debug\GringotsModels.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\04.CodeFirst\GringotsDB\GringotsModels\obj\Debug\GringotsModels.dll
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\04.CodeFirst\GringotsDB\GringotsModels\obj\Debug\GringotsModels.pdb

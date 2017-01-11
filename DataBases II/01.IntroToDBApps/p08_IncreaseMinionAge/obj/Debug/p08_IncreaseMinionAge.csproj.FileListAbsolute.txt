@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p08_IncreaseMinionAge\bin\Debug\p08_IncreaseMinionAge.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p08_IncreaseMinionAge\bin\Debug\p08_IncreaseMinionAge.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p08_IncreaseMinionAge\bin\Debug\p08_IncreaseMinionAge.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p08_IncreaseMinionAge\obj\Debug\p08_IncreaseMinionAge.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p08_IncreaseMinionAge\obj\Debug\p08_IncreaseMinionAge.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p08_IncreaseMinionAge\obj\Debug\p08_IncreaseMinionAge.pdb

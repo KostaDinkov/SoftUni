@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p04_AddMinion\bin\Debug\p04_AddMinion.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p04_AddMinion\bin\Debug\p04_AddMinion.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p04_AddMinion\bin\Debug\p04_AddMinion.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p04_AddMinion\obj\Debug\p04_AddMinion.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p04_AddMinion\obj\Debug\p04_AddMinion.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p04_AddMinion\obj\Debug\p04_AddMinion.pdb

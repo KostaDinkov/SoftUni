@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\02.ADO.NET Advanced\miniORM\bin\Debug\miniORM.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\02.ADO.NET Advanced\miniORM\bin\Debug\miniORM.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\02.ADO.NET Advanced\miniORM\bin\Debug\miniORM.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\02.ADO.NET Advanced\miniORM\obj\Debug\miniORM.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\02.ADO.NET Advanced\miniORM\obj\Debug\miniORM.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\02.ADO.NET Advanced\miniORM\obj\Debug\miniORM.pdb

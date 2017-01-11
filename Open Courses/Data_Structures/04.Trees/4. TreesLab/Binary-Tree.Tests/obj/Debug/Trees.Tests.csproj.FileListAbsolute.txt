@@ -1,0 +1,9 @@
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\bin\Debug\Trees.Tests.dll
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\bin\Debug\Trees.Tests.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\bin\Debug\Trees.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\bin\Debug\Trees.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\obj\Debug\Trees.Tests.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\obj\Debug\Trees.Tests.dll
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree.Tests\obj\Debug\Trees.Tests.pdb

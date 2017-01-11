@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\03.LongestSubsequence\bin\Debug\03.LongestSubsequence.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\03.LongestSubsequence\bin\Debug\03.LongestSubsequence.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\03.LongestSubsequence\bin\Debug\03.LongestSubsequence.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\03.LongestSubsequence\obj\Debug\03.LongestSubsequence.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\03.LongestSubsequence\obj\Debug\03.LongestSubsequence.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\03.LongestSubsequence\obj\Debug\03.LongestSubsequence.csprojResolveAssemblyReference.cache

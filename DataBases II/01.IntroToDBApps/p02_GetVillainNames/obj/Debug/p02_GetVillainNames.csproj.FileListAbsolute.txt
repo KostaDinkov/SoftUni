@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p02_GetVillainNames\bin\Debug\p02_GetVillainNames.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p02_GetVillainNames\bin\Debug\p02_GetVillainNames.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p02_GetVillainNames\bin\Debug\p02_GetVillainNames.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p02_GetVillainNames\obj\Debug\p02_GetVillainNames.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p02_GetVillainNames\obj\Debug\p02_GetVillainNames.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p02_GetVillainNames\obj\Debug\p02_GetVillainNames.pdb

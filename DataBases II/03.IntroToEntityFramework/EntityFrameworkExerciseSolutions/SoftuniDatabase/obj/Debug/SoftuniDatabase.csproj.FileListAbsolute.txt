@@ -1,0 +1,1 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\EntityFrameworkExerciseSolutions\SoftuniDatabase\bin\Debug\SoftuniDatabase.exe.config

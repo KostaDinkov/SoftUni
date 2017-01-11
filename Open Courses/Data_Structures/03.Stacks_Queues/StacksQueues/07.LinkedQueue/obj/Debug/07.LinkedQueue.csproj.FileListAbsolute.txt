@@ -1,0 +1,6 @@
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\07.LinkedQueue\bin\Debug\07.LinkedQueue.exe.config
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\07.LinkedQueue\bin\Debug\07.LinkedQueue.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\07.LinkedQueue\bin\Debug\07.LinkedQueue.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\07.LinkedQueue\obj\Debug\07.LinkedQueue.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\07.LinkedQueue\obj\Debug\07.LinkedQueue.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\07.LinkedQueue\obj\Debug\07.LinkedQueue.pdb

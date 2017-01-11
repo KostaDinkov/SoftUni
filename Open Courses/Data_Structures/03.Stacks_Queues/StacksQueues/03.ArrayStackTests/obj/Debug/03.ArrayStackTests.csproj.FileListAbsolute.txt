@@ -1,0 +1,9 @@
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\bin\Debug\03.ArrayStackTests.dll
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\bin\Debug\03.ArrayStackTests.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\bin\Debug\03.ArrayStack.exe
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\bin\Debug\03.ArrayStack.pdb
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\obj\Debug\03.ArrayStackTests.csprojResolveAssemblyReference.cache
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\obj\Debug\03.ArrayStackTests.dll
+C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\03.ArrayStackTests\obj\Debug\03.ArrayStackTests.pdb

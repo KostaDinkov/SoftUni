@@ -1,0 +1,10 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\bin\Debug\SoftUniCodeFirst.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\bin\Debug\SoftUniCodeFirst.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\bin\Debug\SoftUniCodeFirst.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\obj\Debug\SoftUniCodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\obj\Debug\SoftUniCodeFirst.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\03.IntroToEntityFramework\SoftUniCodeFirst\obj\Debug\SoftUniCodeFirst.pdb

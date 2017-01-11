@@ -1,0 +1,6 @@
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p06_RemoveVillain\bin\Debug\p06_RemoveVillain.exe.config
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p06_RemoveVillain\bin\Debug\p06_RemoveVillain.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p06_RemoveVillain\bin\Debug\p06_RemoveVillain.pdb
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p06_RemoveVillain\obj\Debug\p06_RemoveVillain.csprojResolveAssemblyReference.cache
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p06_RemoveVillain\obj\Debug\p06_RemoveVillain.exe
+C:\Users\Kosta\Documents\My Courses\SoftUni\DataBases II\01.IntroToDBApps\p06_RemoveVillain\obj\Debug\p06_RemoveVillain.pdb
