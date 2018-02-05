@@ -1,5 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\3. Circular-Queue\CircularQueue\bin\Debug\CircularQueue.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\3. Circular-Queue\CircularQueue\bin\Debug\CircularQueue.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\3. Circular-Queue\CircularQueue\obj\Debug\CircularQueue.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\3. Circular-Queue\CircularQueue\obj\Debug\CircularQueue.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\3. Circular-Queue\CircularQueue\obj\Debug\CircularQueue.pdb

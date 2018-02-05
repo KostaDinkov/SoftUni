@@ -1,5 +1,0 @@
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\isis\bin\Debug\isis.exe.config
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\isis\bin\Debug\isis.exe
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\isis\bin\Debug\isis.pdb
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\isis\obj\Debug\isis.exe
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\isis\obj\Debug\isis.pdb

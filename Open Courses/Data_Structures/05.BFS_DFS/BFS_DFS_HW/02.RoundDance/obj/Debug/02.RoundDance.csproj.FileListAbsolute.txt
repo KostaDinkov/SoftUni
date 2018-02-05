@@ -1,6 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\02.RoundDance\bin\Debug\02.RoundDance.exe.config
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\02.RoundDance\bin\Debug\02.RoundDance.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\02.RoundDance\bin\Debug\02.RoundDance.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\02.RoundDance\obj\Debug\02.RoundDance.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\02.RoundDance\obj\Debug\02.RoundDance.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\02.RoundDance\obj\Debug\02.RoundDance.csprojResolveAssemblyReference.cache

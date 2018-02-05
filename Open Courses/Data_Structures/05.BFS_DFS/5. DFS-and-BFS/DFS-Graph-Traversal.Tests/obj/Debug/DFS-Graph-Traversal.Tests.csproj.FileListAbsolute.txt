@@ -1,9 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\bin\Debug\DFS-Graph-Traversal.Tests.dll
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\bin\Debug\DFS-Graph-Traversal.Tests.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\bin\Debug\Graph-Traversal.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\bin\Debug\Graph-Traversal.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\obj\Debug\DFS-Graph-Traversal.Tests.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\obj\Debug\DFS-Graph-Traversal.Tests.dll
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\5. DFS-and-BFS\DFS-Graph-Traversal.Tests\obj\Debug\DFS-Graph-Traversal.Tests.pdb

@@ -1,5 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree\bin\Debug\Trees.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree\bin\Debug\Trees.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree\obj\Debug\Trees.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree\obj\Debug\Trees.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\04.Trees\4. TreesLab\Binary-Tree\obj\Debug\Trees.pdb

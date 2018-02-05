@@ -1,6 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\04.LongestPathInATree\bin\Debug\04.LongestPathInATree.exe.config
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\04.LongestPathInATree\bin\Debug\04.LongestPathInATree.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\04.LongestPathInATree\bin\Debug\04.LongestPathInATree.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\04.LongestPathInATree\obj\Debug\04.LongestPathInATree.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\04.LongestPathInATree\obj\Debug\04.LongestPathInATree.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\04.LongestPathInATree\obj\Debug\04.LongestPathInATree.pdb

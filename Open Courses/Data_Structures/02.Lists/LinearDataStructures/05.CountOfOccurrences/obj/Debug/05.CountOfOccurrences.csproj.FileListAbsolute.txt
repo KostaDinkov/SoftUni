@@ -1,5 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\05.CountOfOccurrences\bin\Debug\05.CountOfOccurrences.exe.config
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\05.CountOfOccurrences\bin\Debug\05.CountOfOccurrences.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\05.CountOfOccurrences\bin\Debug\05.CountOfOccurrences.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\05.CountOfOccurrences\obj\Debug\05.CountOfOccurrences.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\02.Lists\LinearDataStructures\05.CountOfOccurrences\obj\Debug\05.CountOfOccurrences.pdb

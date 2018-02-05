@@ -1,0 +1,9 @@
+function triangle(n){
+
+    for(let i = 1; i<=n; i++){
+
+        console.log("$".repeat(i));
+    }
+}
+
+triangle(5);

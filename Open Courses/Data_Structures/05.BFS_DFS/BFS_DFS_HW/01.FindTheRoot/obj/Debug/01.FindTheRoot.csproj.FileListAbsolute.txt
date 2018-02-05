@@ -1,6 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\01.FindTheRoot\bin\Debug\01.FindTheRoot.exe.config
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\01.FindTheRoot\bin\Debug\01.FindTheRoot.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\01.FindTheRoot\bin\Debug\01.FindTheRoot.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\01.FindTheRoot\obj\Debug\01.FindTheRoot.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\01.FindTheRoot\obj\Debug\01.FindTheRoot.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\01.FindTheRoot\obj\Debug\01.FindTheRoot.pdb

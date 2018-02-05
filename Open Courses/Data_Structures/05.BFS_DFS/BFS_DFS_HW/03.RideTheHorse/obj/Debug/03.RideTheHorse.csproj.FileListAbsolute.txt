@@ -1,6 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\03.RideTheHorse\bin\Debug\03.RideTheHorse.exe.config
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\03.RideTheHorse\bin\Debug\03.RideTheHorse.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\03.RideTheHorse\bin\Debug\03.RideTheHorse.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\03.RideTheHorse\obj\Debug\03.RideTheHorse.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\03.RideTheHorse\obj\Debug\03.RideTheHorse.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\05.BFS_DFS\BFS_DFS_HW\03.RideTheHorse\obj\Debug\03.RideTheHorse.pdb

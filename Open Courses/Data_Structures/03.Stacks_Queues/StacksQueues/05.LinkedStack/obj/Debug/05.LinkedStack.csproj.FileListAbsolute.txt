@@ -1,6 +1,0 @@
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\05.LinkedStack\bin\Debug\05.LinkedStack.exe.config
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\05.LinkedStack\bin\Debug\05.LinkedStack.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\05.LinkedStack\bin\Debug\05.LinkedStack.pdb
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\05.LinkedStack\obj\Debug\05.LinkedStack.csprojResolveAssemblyReference.cache
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\05.LinkedStack\obj\Debug\05.LinkedStack.exe
-C:\Users\kvdin\OneDrive\SoftUni\Open Courses\Data_Structures\03.Stacks_Queues\StacksQueues\05.LinkedStack\obj\Debug\05.LinkedStack.pdb

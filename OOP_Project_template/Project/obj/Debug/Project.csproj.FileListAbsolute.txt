@@ -1,5 +1,0 @@
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\Project\bin\Debug\Project.exe.config
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\Project\bin\Debug\Project.exe
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\Project\bin\Debug\Project.pdb
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\Project\obj\Debug\Project.exe
-C:\Users\kvdin\Desktop\OOP_ExamPrep\isis\Project\obj\Debug\Project.pdb
