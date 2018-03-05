@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="time" style="border:3px solid blue; text-align:center; font-size:2em;" disabled="true"/>
+<script>
+    window.onload = function() { countdown(600); };
+    function countdown(ms){
+
+        let timer = setInterval(updateTimer, 1000 );
+
+        function updateTimer() {
+            ms-=1;
+            if(ms<=0){
+                clearInterval(timer);
+            }
+            let timerInput = document.getElementById('time');
+            let minutes = Math.floor(ms / 60);
+            let seconds = String(ms % 60);
+            if(seconds.length < 2){
+                seconds = '0'+seconds;
+            }
+
+            timerInput.value = `${minutes}:${seconds}`;
+
+
+        }
+    }
+</script>
+
+</body>
+</html>

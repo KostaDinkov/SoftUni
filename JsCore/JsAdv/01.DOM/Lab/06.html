@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    A ab accusantium ad, alias consectetur (Kosta)corporis cumque dolor enim facere
+    facilis harum in magni minima mollitia nobis non( Dinkov ) officia pariatur placeat
+    quas qui quia quod, sapiente, similique temporibus vero vitae voluptas?</p>
+
+<script>
+    window.onload = function() {extract('content')};
+
+    function extract(id){
+        let element = document.getElementById(id);
+        let text = element.textContent;
+
+        let re = new RegExp(/\((.+?)\)/,'g');
+        let m;
+        let results = [];
+        while((m=re.exec(text))!=null){
+            results.push(m[1]);
+        }
+        return(results.join("; "));
+
+    }
+</script>
+</body>
+</html>
