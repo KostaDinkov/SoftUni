@@ -1,0 +1,7 @@
+{
+  "name": "JsCore",
+  "version": "0.0.1",
+  "dependencies": {
+    "jsdom-global": "^3.0.2"
+  }
+}
