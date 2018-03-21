@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phonebook</title>
+
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyD8zwVY8Am0UsLSKPtNDvJ0PASiGYJYb8Q",
+            authDomain: "phoneapp-ef910.firebaseapp.com",
+            databaseURL: "https://phoneapp-ef910.firebaseio.com",
+            projectId: "phoneapp-ef910",
+            storageBucket: "phoneapp-ef910.appspot.com",
+            messagingSenderId: "825173817179"
+        };
+        firebase.initializeApp(config);
+    </script>
+</head>
+<body>
+
+<h1>Phonebook</h1>
+<table id="phonebook">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+    </tr>
+    </thead>
+    <tbody id="contacts">
+
+    </tbody>
+</table>
+
+<h2>Create Contact</h2>
+Person: <input type="text" id="person"/>
+<br>
+Phone: <input type="text" id="phone"/>
+<br>
+<button id="btnCreate">Create</button>
+<script src="phonebook.js"></script>
+</body>
+</html>
