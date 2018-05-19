@@ -1,0 +1,11 @@
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\bin\Debug\netcoreapp2.0\01.DebitCardNumber.deps.json
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\bin\Debug\netcoreapp2.0\01.DebitCardNumber.runtimeconfig.json
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\bin\Debug\netcoreapp2.0\01.DebitCardNumber.runtimeconfig.dev.json
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\bin\Debug\netcoreapp2.0\01.DebitCardNumber.dll
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\bin\Debug\netcoreapp2.0\01.DebitCardNumber.pdb
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\obj\Debug\netcoreapp2.0\01.DebitCardNumber.csprojAssemblyReference.cache
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\obj\Debug\netcoreapp2.0\01.DebitCardNumber.csproj.CoreCompileInputs.cache
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\obj\Debug\netcoreapp2.0\01.DebitCardNumber.AssemblyInfoInputs.cache
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\obj\Debug\netcoreapp2.0\01.DebitCardNumber.AssemblyInfo.cs
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\obj\Debug\netcoreapp2.0\01.DebitCardNumber.dll
+E:\Courses\SoftUni\Tech\Fundamentals\01.Syntax\01.DebitCardNumber\obj\Debug\netcoreapp2.0\01.DebitCardNumber.pdb
