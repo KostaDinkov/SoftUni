@@ -59,5 +59,10 @@ Temporary Items
 *.vbproj.user
 *.csproj.webinfo
 *.vbproj.webinfo
-.bin
-.debug
+*.bin
+*.debug
+*.csproj
+obj/
+bin/
+.idea/
+*node_modules/

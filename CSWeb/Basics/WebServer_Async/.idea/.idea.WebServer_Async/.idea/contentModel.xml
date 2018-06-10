@@ -5,12 +5,17 @@
     <e p="E:\Courses\SoftUni\CSWeb\Basics\WebServer_Async" t="IncludeFlat">
       <e p="HandmadeHTTPServer" t="IncludeRecursive">
         <e p="Application" t="Include">
-          <e p="Controllers" t="Include" />
-          <e p="Views" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="HomeController.cs" t="Include" />
+          </e>
+          <e p="MainApplication.cs" t="Include" />
+          <e p="Views" t="Include">
+            <e p="HomeIndexView.cs" t="Include" />
+          </e>
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="HandmadeHTTPServer.csproj" t="IncludeRecursive" />
-        <e p="Louncher.cs" t="Include" />
+        <e p="Launcher.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.0" t="Include">
@@ -19,7 +24,11 @@
           </e>
         </e>
         <e p="Server" t="Include">
-          <e p="Contracts" t="Include" />
+          <e p="ConnectionHandler.cs" t="Include" />
+          <e p="Contracts" t="Include">
+            <e p="IApplication.cs" t="Include" />
+            <e p="IRunnable.cs" t="Include" />
+          </e>
           <e p="Enums" t="Include">
             <e p="HttpRequestMethod.cs" t="Include" />
             <e p="HttpStatusCode.cs" t="Include" />
@@ -28,21 +37,47 @@
             <e p="BadREquestException.cs" t="Include" />
           </e>
           <e p="Handlers" t="Include">
-            <e p="Contracts" t="Include" />
+            <e p="Contracts" t="Include">
+              <e p="IRequestHandler.cs" t="Include" />
+            </e>
+            <e p="GetRequestHandler.cs" t="Include" />
+            <e p="HttpHandler.cs" t="Include" />
+            <e p="PostRequestHandler.cs" t="Include" />
+            <e p="RequestHandler.cs" t="Include" />
           </e>
           <e p="HTTP" t="Include">
             <e p="Contracts" t="Include">
+              <e p="IHttpContext.cs" t="Include" />
               <e p="IHttpHeaderCollection.cs" t="Include" />
               <e p="IHttpRequest.cs" t="Include" />
+              <e p="IHttpResponse.cs" t="Include" />
+              <e p="IView.cs" t="Include" />
             </e>
+            <e p="HttpContext.cs" t="Include" />
             <e p="HttpHeader.cs" t="Include" />
             <e p="HttpHeaderCollection.cs" t="Include" />
             <e p="HttpRequest.cs" t="Include" />
-            <e p="Response" t="Include" />
+            <e p="Response" t="Include">
+              <e p="HttpResponse.cs" t="Include" />
+              <e p="NotFoundResponse.cs" t="Include" />
+              <e p="RedirectResponse.cs" t="Include" />
+              <e p="ViewResponse.cs" t="Include" />
+            </e>
           </e>
           <e p="Routing" t="Include">
-            <e p="Contracts" t="Include" />
+            <e p="AppRouteConfig.cs" t="Include" />
+            <e p="Contracts" t="Include">
+              <e p="IAppRouteConfig.cs" t="Include" />
+              <e p="IRoutingContext.cs" t="Include" />
+              <e p="IServerRouteConfig.cs" t="Include" />
+            </e>
+            <e p="RoutingContext.cs" t="Include" />
+            <e p="ServerRouteConfig.cs" t="Include" />
           </e>
+          <e p="Util" t="Include">
+            <e p="StatusCodeExtensions.cs" t="Include" />
+          </e>
+          <e p="WebServer.cs" t="Include" />
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
