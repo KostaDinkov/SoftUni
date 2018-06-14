@@ -1,6 +1,15 @@
-2
-Didi-PowerPuffsCoders
-Toni-Toni is the best
-Petq->PowerPuffsCoders
-Toni->Toni is the best
+4
+Tatyana-CloneClub
+Helena-CloneClub
+Trifon-AiNaBira
+Tatyana-Kiberlab
+Pesho->aiNaBira
+Pesho->AiNaBira
+Pesho->CloneClub
+Tatyana->AiNaBira
+Tatyana->Leda
+PeshO->AiNaBira
+Cossima->CloneClub
+Cossima->AiNaBira
+Cossima->Leda
 end of assignment
