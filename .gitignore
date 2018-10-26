@@ -64,5 +64,6 @@ Temporary Items
 *.csproj
 obj/
 bin/
+.vs/
 .idea/
 *node_modules/
