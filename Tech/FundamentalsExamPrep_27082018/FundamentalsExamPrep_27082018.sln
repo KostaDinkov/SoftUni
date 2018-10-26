@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Hogswatch", "01.Hogswatch\01.Hogswatch.csproj", "{FC0C77DE-4FA0-4A5F-9440-0DE321FBC0A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Hogswatch", "01.Hogswatch\01.Hogswatch.csproj", "{FC0C77DE-4FA0-4A5F-9440-0DE321FBC0A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GrainsOfSand", "02.GrainsOfSand\02.GrainsOfSand.csproj", "{FEB23298-FF25-4942-A71A-5C2207D77D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02.GrainsOfSand", "02.GrainsOfSand\02.GrainsOfSand.csproj", "{FEB23298-FF25-4942-A71A-5C2207D77D74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PostOffice", "03.PostOffice\03.PostOffice.csproj", "{544B37A4-BE87-4DEC-8CEB-9BFF19DAA872}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03.PostOffice", "03.PostOffice\03.PostOffice.csproj", "{544B37A4-BE87-4DEC-8CEB-9BFF19DAA872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.IronGirder", "04.IronGirder\04.IronGirder.csproj", "{AEB7F0B6-13F4-4746-9FC2-FAAA6ACEB292}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{544B37A4-BE87-4DEC-8CEB-9BFF19DAA872}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544B37A4-BE87-4DEC-8CEB-9BFF19DAA872}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544B37A4-BE87-4DEC-8CEB-9BFF19DAA872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB7F0B6-13F4-4746-9FC2-FAAA6ACEB292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB7F0B6-13F4-4746-9FC2-FAAA6ACEB292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB7F0B6-13F4-4746-9FC2-FAAA6ACEB292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB7F0B6-13F4-4746-9FC2-FAAA6ACEB292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
