@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Net.Http.Headers;
+using System.Threading.Tasks;
 using SUS.HTTP;
 
 namespace FirstMvcApps
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             IHttpServer server = new HttpServer();
             
@@ -15,6 +16,7 @@ namespace FirstMvcApps
             server.AddRoute("/about", About);
             server.AddRoute("/users/login", Login);
 
+            await server.StartAsync(8081);
 
             static HttpResponse HomePage( HttpRequest request)
             {
@@ -28,7 +30,7 @@ namespace FirstMvcApps
             {
                 throw new NotImplementedException();
             }
-            server.StartAsync(80);
+            
         }
     }
 }
