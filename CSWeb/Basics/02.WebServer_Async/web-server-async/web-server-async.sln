@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Chronometer", "01.Chronometer\01.Chronometer.csproj", "{06D3C70C-840A-456F-8061-5FFD71F821F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01.Chronometer", "01.Chronometer\01.Chronometer.csproj", "{06D3C70C-840A-456F-8061-5FFD71F821F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ParalelMergeSort", "02.ParalelMergeSort\02.ParalelMergeSort.csproj", "{BD9151FC-97D6-429E-9F50-94CB757E3715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.AsyncSISWs", "03.AsyncSISWs\03.AsyncSISWs.csproj", "{6EF230E3-E172-4A01-9C45-4FB50A962827}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{06D3C70C-840A-456F-8061-5FFD71F821F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06D3C70C-840A-456F-8061-5FFD71F821F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06D3C70C-840A-456F-8061-5FFD71F821F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD9151FC-97D6-429E-9F50-94CB757E3715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9151FC-97D6-429E-9F50-94CB757E3715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9151FC-97D6-429E-9F50-94CB757E3715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9151FC-97D6-429E-9F50-94CB757E3715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF230E3-E172-4A01-9C45-4FB50A962827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF230E3-E172-4A01-9C45-4FB50A962827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF230E3-E172-4A01-9C45-4FB50A962827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF230E3-E172-4A01-9C45-4FB50A962827}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
