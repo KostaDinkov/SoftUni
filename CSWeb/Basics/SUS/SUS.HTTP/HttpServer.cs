@@ -11,6 +11,7 @@ namespace SUS.HTTP
 {
     public class HttpServer : IHttpServer
     {
+        private const int BufferSize = 4096;
         IDictionary<string, Func<HttpRequest, HttpResponse>> routeTable = new Dictionary<string, Func<HttpRequest, HttpResponse>>();
         public void AddRoute(string path, Func<HttpRequest, HttpResponse> action)
         {
@@ -61,14 +62,14 @@ namespace SUS.HTTP
             using (NetworkStream stream = tcpClient.GetStream())
             {
                 List<byte> data = new List<byte>();
-                byte[] buffer = new byte[4096];
+                byte[] buffer = new byte[BufferSize];
                 int position = 0;
 
                 while (true)
                 {
-                    int count = await stream.ReadAsync(buffer, position, buffer.Length);
+                    int count = await stream.ReadAsync(buffer, position, BufferSize);
 
-                    if (count < buffer.Length)
+                    if (count < BufferSize)
                     {
                         byte[] finalData = new byte[count];
                         Array.Copy(buffer, finalData, count);
