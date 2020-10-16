@@ -49,40 +49,50 @@ namespace SUS.HTTP
 
         private async Task ProcessClientAsync(TcpClient tcpClient)
         {
-            using (NetworkStream stream = tcpClient.GetStream())
+
+            try
             {
-                List<byte> data = new List<byte>();
-                byte[] buffer = new byte[HTTPConstants.BufferSize];
-                int position = 0;
-
-                while (true)
+                using (NetworkStream stream = tcpClient.GetStream())
                 {
-                    int count = await stream.ReadAsync(buffer, position, HTTPConstants.BufferSize);
+                    List<byte> data = new List<byte>();
+                    byte[] buffer = new byte[HTTPConstants.BufferSize];
+                    int position = 0;
 
-                    if (count < HTTPConstants.BufferSize)
+                    while (true)
                     {
-                        byte[] finalData = new byte[count];
-                        Array.Copy(buffer, finalData, count);
-                        data.AddRange(finalData);
-                        break;
+                        int count = await stream.ReadAsync(buffer, position, HTTPConstants.BufferSize);
+
+                        if (count < HTTPConstants.BufferSize)
+                        {
+                            byte[] finalData = new byte[count];
+                            Array.Copy(buffer, finalData, count);
+                            data.AddRange(finalData);
+                            break;
+                        }
+                        data.AddRange(buffer);
+                        position += count;
                     }
-                    data.AddRange(buffer);
-                    position += count;
+                    var requestString = Encoding.UTF8.GetString(data.ToArray());
+                    Console.WriteLine(requestString);
+                
+                    HttpRequest request = new HttpRequest(requestString);
+
+                    var html = "<h1>Welcome</h1>";
+                    var htmlBytes = Encoding.UTF8.GetBytes(html);
+                    var response = $"HTTP/1.1 200 OK{HTTPConstants.NewLine}" +
+                                   $"Server: Sus v. 1.0{HTTPConstants.NewLine}" +
+                                   $"Content-Length: {htmlBytes.Length}{HTTPConstants.NewLine}" +
+                                   $"Content-Type: text/html{HTTPConstants.NewLine}{HTTPConstants.NewLine}" +
+                                   $"{html}";
+
+                    var responseBytes = Encoding.UTF8.GetBytes(response);
+                    await stream.WriteAsync(responseBytes, 0, responseBytes.Length);
                 }
-                var requestString = Encoding.UTF8.GetString(data.ToArray());
-                Console.WriteLine(requestString);
-                HttpRequest request = new HttpRequest(requestString);
-
-                var html = "<h1>Welcome</h1>";
-                var htmlBytes = Encoding.UTF8.GetBytes(html);
-                var response = $"HTTP/1.1 200 OK{HTTPConstants.NewLine}" +
-                              $"Server: Sus v. 1.0{HTTPConstants.NewLine}" +
-                              $"Content-Length: {htmlBytes.Length}{HTTPConstants.NewLine}" +
-                              $"Content-Type: text/html{HTTPConstants.NewLine}{HTTPConstants.NewLine}" +
-                              $"{html}";
-
-                var responseBytes = Encoding.UTF8.GetBytes(response);
-                await stream.WriteAsync(responseBytes, 0, responseBytes.Length);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
             }
            
 

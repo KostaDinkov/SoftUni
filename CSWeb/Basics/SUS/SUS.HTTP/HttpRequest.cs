@@ -15,7 +15,7 @@ namespace SUS.HTTP
             var lines = requestString.Split(new[]{HTTPConstants.NewLine}, StringSplitOptions.None);
 
             var firstLineParams = lines[0].Split(new []{" "},StringSplitOptions.None);
-            Method = firstLineParams[0];
+            Method = (HttpMethod)Enum.Parse(typeof(HttpMethod),firstLineParams[0].ToUpper());
             Path = firstLineParams[1];
 
             var lineIndex = 1;
@@ -25,6 +25,8 @@ namespace SUS.HTTP
                 if (string.IsNullOrWhiteSpace(lines[lineIndex]))
                 {
                     isInHeaders = false;
+                    lineIndex++;
+                    continue;
                 }
 
                 if (isInHeaders)
@@ -40,6 +42,7 @@ namespace SUS.HTTP
                     }
 
                     this.Body = body.ToString();
+                    break;
                 }
 
                 lineIndex++;
@@ -50,7 +53,7 @@ namespace SUS.HTTP
 
         public List<Header> Headers { get; set; }
         public string Path { get; set; }
-        public string Method { get; set; }
+        public HttpMethod Method { get; set; }
 
         public List<Cookie> Cookies { get; set; }
         public string RequestString { get; private set; }
