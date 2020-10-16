@@ -78,15 +78,9 @@ namespace SUS.HTTP
                     HttpRequest request = new HttpRequest(requestString);
 
                     var html = "<h1>Welcome</h1>";
-                    var htmlBytes = Encoding.UTF8.GetBytes(html);
-                    var response = $"HTTP/1.1 200 OK{HTTPConstants.NewLine}" +
-                                   $"Server: Sus v. 1.0{HTTPConstants.NewLine}" +
-                                   $"Content-Length: {htmlBytes.Length}{HTTPConstants.NewLine}" +
-                                   $"Content-Type: text/html{HTTPConstants.NewLine}{HTTPConstants.NewLine}" +
-                                   $"{html}";
-
-                    var responseBytes = Encoding.UTF8.GetBytes(response);
-                    await stream.WriteAsync(responseBytes, 0, responseBytes.Length);
+                    var response = new HttpResponse("text/html", html);
+                    
+                    await stream.WriteAsync(response.ToByteArray(), 0, response.ToByteArray().Length);
                 }
             }
             catch (Exception e)

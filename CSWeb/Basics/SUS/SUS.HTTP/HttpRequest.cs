@@ -15,9 +15,9 @@ namespace SUS.HTTP
             Cookies = new List<Cookie>();
 
             //Parse Headers
-            var lines = requestString.Split(new[]{HTTPConstants.NewLine}, StringSplitOptions.None);
-            var firstLineParams = lines[0].Split(new []{" "},StringSplitOptions.None);
-            Method = (HttpMethod)Enum.Parse(typeof(HttpMethod),firstLineParams[0],true);
+            var lines = requestString.Split(new[] { HTTPConstants.NewLine }, StringSplitOptions.None);
+            var firstLineParams = lines[0].Split(new[] { " " }, StringSplitOptions.None);
+            Method = (HttpMethod)Enum.Parse(typeof(HttpMethod), firstLineParams[0], true);
             Path = firstLineParams[1];
 
             var lineIndex = 1;
@@ -37,39 +37,29 @@ namespace SUS.HTTP
                 }
                 else
                 {
-                    // Append Body
+                    // 
                     StringBuilder body = new StringBuilder();
                     for (int i = lineIndex; i < lines.Length; i++)
                     {
                         body.AppendLine(lines[i]);
                     }
-
                     this.Body = body.ToString();
                     break;
                 }
-
                 lineIndex++;
             }
 
             // Parse Cookies
-            try
+            var cookieHeader = Headers.FirstOrDefault(h => h.Name == "Cookie");
+            if (cookieHeader != null)
             {
-                var cookieHeader = Headers.First(h => h.Name == "Cookie");
-                var cookies = cookieHeader.Value.Split(new[] {"; "},StringSplitOptions.None);
+                var cookies = cookieHeader.Value.Split(new[] { "; " }, StringSplitOptions.RemoveEmptyEntries);
                 foreach (var cookie in cookies)
                 {
-                    var parts = cookie.Split(new[] {"="}, StringSplitOptions.None);
-
-                    Cookies.Add(new Cookie{Name = parts[0],Value = parts[1], CookieString = cookie});
+                    Cookies.Add(new Cookie(cookie));
                 }
-
                 Cookies.ToList().ForEach(Console.WriteLine);
             }
-            catch (InvalidOperationException e)
-            {
-                // Console.WriteLine("No cookies in request");
-            }
-            
         }
 
         public string Body { get; set; }
