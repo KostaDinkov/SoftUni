@@ -11,7 +11,6 @@ namespace SUS.HTTP
 {
     public class HttpServer : IHttpServer
     {
-        private const int BufferSize = 4096;
         IDictionary<string, Func<HttpRequest, HttpResponse>> routeTable = new Dictionary<string, Func<HttpRequest, HttpResponse>>();
         public void AddRoute(string path, Func<HttpRequest, HttpResponse> action)
         {
@@ -43,17 +42,8 @@ namespace SUS.HTTP
             {
                 using (TcpClient tcpClient = await tcpListener.AcceptTcpClientAsync())
                 {
-                    try
-                    {
-                        ProcessClientAsync(tcpClient);
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine(e);
-                        throw;
-                    }
+                    await ProcessClientAsync(tcpClient);
                 }
-
             }
         }
 
@@ -62,31 +52,39 @@ namespace SUS.HTTP
             using (NetworkStream stream = tcpClient.GetStream())
             {
                 List<byte> data = new List<byte>();
-                byte[] buffer = new byte[BufferSize];
+                byte[] buffer = new byte[HTTPConstants.BufferSize];
                 int position = 0;
 
                 while (true)
                 {
-                    int count = await stream.ReadAsync(buffer, position, BufferSize);
+                    int count = await stream.ReadAsync(buffer, position, HTTPConstants.BufferSize);
 
-                    if (count < BufferSize)
+                    if (count < HTTPConstants.BufferSize)
                     {
                         byte[] finalData = new byte[count];
                         Array.Copy(buffer, finalData, count);
                         data.AddRange(finalData);
                         break;
                     }
-                    else
-                    {
-                        data.AddRange(buffer);
-                    }
+                    data.AddRange(buffer);
                     position += count;
                 }
-                var request = Encoding.UTF8.GetString(data.ToArray());
-                Console.WriteLine(request);
+                var requestString = Encoding.UTF8.GetString(data.ToArray());
+                Console.WriteLine(requestString);
+                HttpRequest request = new HttpRequest(requestString);
 
+                var html = "<h1>Welcome</h1>";
+                var htmlBytes = Encoding.UTF8.GetBytes(html);
+                var response = $"HTTP/1.1 200 OK{HTTPConstants.NewLine}" +
+                              $"Server: Sus v. 1.0{HTTPConstants.NewLine}" +
+                              $"Content-Length: {htmlBytes.Length}{HTTPConstants.NewLine}" +
+                              $"Content-Type: text/html{HTTPConstants.NewLine}{HTTPConstants.NewLine}" +
+                              $"{html}";
 
+                var responseBytes = Encoding.UTF8.GetBytes(response);
+                await stream.WriteAsync(responseBytes, 0, responseBytes.Length);
             }
+           
 
         }
 
