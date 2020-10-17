@@ -58,7 +58,6 @@ namespace SUS.HTTP
                 {
                     Cookies.Add(new Cookie(cookie));
                 }
-                Cookies.ToList().ForEach(Console.WriteLine);
             }
         }
 

@@ -12,6 +12,7 @@ namespace SUS.HTTP
     public class HttpServer : IHttpServer
     {
         IDictionary<string, Func<HttpRequest, HttpResponse>> routeTable = new Dictionary<string, Func<HttpRequest, HttpResponse>>();
+        
         public void AddRoute(string path, Func<HttpRequest, HttpResponse> action)
         {
             if (routeTable.ContainsKey(path))
@@ -74,12 +75,22 @@ namespace SUS.HTTP
                     }
                     var requestString = Encoding.UTF8.GetString(data.ToArray());
                     Console.WriteLine(requestString);
-                
                     HttpRequest request = new HttpRequest(requestString);
 
-                    var html = "<h1>Welcome</h1>";
-                    var response = new HttpResponse("text/html", html);
-                    
+                    HttpResponse response;
+                    if (routeTable.ContainsKey(request.Path))
+                    {
+
+                        response = routeTable[request.Path](request);
+                        
+                        //response.Cookies.Add(new ResponseCookie("sid", Guid.NewGuid().ToString()) { IsHttpOnly = true, MaxAge = 24 * 60 * 60 });
+                    }
+                    else
+                    {
+                        var html = "<h1>404 </h1><p>The resource you are looking for was not found!</p>";
+                        response = new HttpResponse("text/html", html, HttpStatusCode.NotFound);
+                        
+                    }
                     await stream.WriteAsync(response.ToByteArray(), 0, response.ToByteArray().Length);
                 }
             }
@@ -88,7 +99,7 @@ namespace SUS.HTTP
                 Console.WriteLine(e);
                 throw;
             }
-           
+
 
         }
 
