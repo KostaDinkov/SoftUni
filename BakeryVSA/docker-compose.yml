@@ -1,0 +1,18 @@
+services:
+  bakerysystem:
+    image: ${DOCKER_REGISTRY-}bakerysystem
+    build:
+      context: .
+      dockerfile: src/BakerySystem/Dockerfile
+    depends_on:
+      - bakery-db
+  bakery-db:
+    image: postgres:16
+    container_name: bakery-postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=BakeryPassword123
+      - POSTGRES_DB=BakeryDb
+    ports:
+      - "5432:5432"
