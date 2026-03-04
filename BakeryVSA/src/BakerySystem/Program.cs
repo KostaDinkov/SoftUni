@@ -1,5 +1,6 @@
 using BakerySystem.Features.Vendors.CreateVendor;
 using BakerySystem.Features.Vendors.GetVendors;
+using BakerySystem.Infrastructure.Middleware;
 using BakerySystem.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
@@ -17,15 +18,19 @@ builder.Services.AddDbContext<BakeryDbContext>(options =>
 
 });
 builder.Services.AddOpenApi();
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+
+builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+
+builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
 
 
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseExceptionHandler();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
