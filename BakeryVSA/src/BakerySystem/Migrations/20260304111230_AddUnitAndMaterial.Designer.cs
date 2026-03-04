@@ -3,6 +3,7 @@ using System;
 using BakerySystem.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BakerySystem.Migrations
 {
     [DbContext(typeof(BakeryDbContext))]
-    partial class BakeryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260304111230_AddUnitAndMaterial")]
+    partial class AddUnitAndMaterial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,6 +25,26 @@ namespace BakerySystem.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("BakerySystem.Domain.BaseUnit", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer")
+                        .HasColumnName("id");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.HasKey("Id")
+                        .HasName("pk_base_units");
+
+                    b.ToTable("base_units", (string)null);
+                });
+
             modelBuilder.Entity("BakerySystem.Domain.Material", b =>
                 {
                     b.Property<Guid>("Id")
@@ -29,9 +52,9 @@ namespace BakerySystem.Migrations
                         .HasColumnType("uuid")
                         .HasColumnName("id");
 
-                    b.Property<int>("BaseUnit")
+                    b.Property<int>("BaseUnitId")
                         .HasColumnType("integer")
-                        .HasColumnName("base_unit");
+                        .HasColumnName("base_unit_id");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -40,6 +63,9 @@ namespace BakerySystem.Migrations
 
                     b.HasKey("Id")
                         .HasName("pk_materials");
+
+                    b.HasIndex("BaseUnitId")
+                        .HasDatabaseName("ix_materials_base_unit_id");
 
                     b.ToTable("materials", (string)null);
                 });
@@ -60,6 +86,18 @@ namespace BakerySystem.Migrations
                         .HasName("pk_vendors");
 
                     b.ToTable("vendors", (string)null);
+                });
+
+            modelBuilder.Entity("BakerySystem.Domain.Material", b =>
+                {
+                    b.HasOne("BakerySystem.Domain.BaseUnit", "BaseUnit")
+                        .WithMany()
+                        .HasForeignKey("BaseUnitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
+                        .HasConstraintName("fk_materials_base_units_base_unit_id");
+
+                    b.Navigation("BaseUnit");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,7 +1,11 @@
+using BakerySystem.Features.Lookups.GetBaseUnits;
+using BakerySystem.Features.Materials.CreateMaterial;
+using BakerySystem.Features.Materials.GetMaterials;
 using BakerySystem.Features.Vendors.CreateVendor;
 using BakerySystem.Features.Vendors.GetVendors;
 using BakerySystem.Infrastructure.Middleware;
 using BakerySystem.Infrastructure.Persistence;
+using Dapper;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -24,7 +28,7 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Progr
 
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddProblemDetails();
-
+DefaultTypeMap.MatchNamesWithUnderscores = true;
 
 
 var app = builder.Build();
@@ -65,6 +69,9 @@ app.MapGet("/weatherforecast", () =>
     .WithName("GetWeatherForecast");
 app.MapCreateVendor();
 app.MapGetVendors();
+app.MapCreateMaterialEndpoint();
+app.MapGetMaterials();
+app.MapGetBaseUnits();
 
 app.Run();
 

@@ -1,5 +1,7 @@
-﻿namespace BakerySystem.Domain;
-public class Result<T>
+﻿using MediatR;
+
+namespace BakerySystem.Domain;
+public class Result<T> 
 {
     
     public T? Value { get; }

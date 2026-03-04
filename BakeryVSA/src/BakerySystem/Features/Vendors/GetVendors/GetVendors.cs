@@ -36,7 +36,7 @@ public class GetVendorsHandler: IRequestHandler<GetVendorsQuery, Result<IEnumera
    {
        var connectionString = _configuration.GetConnectionString("DefaultConnection");
         
-        await using var connection = new NpgsqlConnection(_configuration.GetConnectionString("DefaultConnection"));
+        await using var connection = new NpgsqlConnection(connectionString);
         const string sql = @"
             SELECT Id, Name
             FROM public.Vendors";
