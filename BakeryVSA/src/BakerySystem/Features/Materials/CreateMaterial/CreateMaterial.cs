@@ -1,7 +1,7 @@
 ﻿using BakerySystem.Domain;
 using MediatR;
 using BakerySystem.Infrastructure.Persistence;
-using Microsoft.AspNetCore.Authorization;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 
 namespace BakerySystem.Features.Materials.CreateMaterial;
@@ -28,15 +28,12 @@ public static class CreateMaterialEndpoint
     }
 }
 
-public class CreateMaterialHandler (BakeryDbContext context) :IRequestHandler<CreateMaterialCommand, Result<Guid>> 
+public class CreateMaterialHandler (BakeryDbContext context, IValidator<CreateMaterialCommand> validator) :IRequestHandler<CreateMaterialCommand, Result<Guid>> 
 {
     
     public async Task<Result<Guid>> Handle(CreateMaterialCommand request, CancellationToken cancellationToken)
     {
-        if (String.IsNullOrWhiteSpace(request.Name))
-        {
-            return Result<Guid>.Failure("Material name cannot be empty.");
-        }
+        
         var materialExists = await context.Materials.AnyAsync(m => m.Name == request.Name, cancellationToken);
         if (materialExists)
         {
@@ -52,5 +49,17 @@ public class CreateMaterialHandler (BakeryDbContext context) :IRequestHandler<Cr
 
         await context.SharedSaveChangesAsync(cancellationToken);
         return Result<Guid>.Success(created.Entity.Id);
+    }
+}
+
+public class CreateMaterialValidator: AbstractValidator<CreateMaterialCommand>
+{
+    public CreateMaterialValidator()
+    {
+        RuleFor(x => x.Name)
+            .NotEmpty().WithMessage("Material name cannot be empty.")
+            .MaximumLength(100).WithMessage("Material name cannot exceed 100 characters.");
+        RuleFor(x => x.BaseUnit)
+            .IsInEnum().WithMessage("Please select a valid measurement unit.");
     }
 }

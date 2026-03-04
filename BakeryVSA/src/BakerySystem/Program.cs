@@ -3,9 +3,11 @@ using BakerySystem.Features.Materials.CreateMaterial;
 using BakerySystem.Features.Materials.GetMaterials;
 using BakerySystem.Features.Vendors.CreateVendor;
 using BakerySystem.Features.Vendors.GetVendors;
+using BakerySystem.Infrastructure.MediatR;
 using BakerySystem.Infrastructure.Middleware;
 using BakerySystem.Infrastructure.Persistence;
 using Dapper;
+using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using Scalar.AspNetCore;
 
@@ -24,7 +26,12 @@ builder.Services.AddDbContext<BakeryDbContext>(options =>
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(typeof(Program).Assembly);
+    cfg.AddOpenBehavior(typeof(ValidationBehavior<,>));
+});
+builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
 builder.Services.AddProblemDetails();
