@@ -1,4 +1,4 @@
-﻿using BakerySystem.Domain;
+﻿using BakerySystem.Domain.Shared;
 
 namespace BakerySystem.Features.Lookups.GetBaseUnits;
 

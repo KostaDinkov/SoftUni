@@ -1,15 +1,10 @@
-﻿using BakerySystem.Domain;
+﻿using BakerySystem.Domain.Common;
 using MediatR;
 using BakerySystem.Infrastructure.Persistence;
-using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using BakerySystem.Domain.Materials;
 
 namespace BakerySystem.Features.Materials.CreateMaterial;
-
-
-public record CreateMaterialCommand(string Name, BaseUnit BaseUnit) : IRequest<Result<Guid>>;
-
-
 
 public static class CreateMaterialEndpoint
 {
@@ -22,44 +17,40 @@ public static class CreateMaterialEndpoint
                     ? Results.Created($"/api/materials/{result.Value}", result.Value)
                     : Results.BadRequest(result.Error);
             })
-            .WithName("CreateMaterial")
-            .WithOpenApi();
+            .WithName("CreateMaterial");
+
 
     }
 }
 
-public class CreateMaterialHandler (BakeryDbContext context, IValidator<CreateMaterialCommand> validator) :IRequestHandler<CreateMaterialCommand, Result<Guid>> 
+public class CreateMaterialHandler (BakeryDbContext context) :IRequestHandler<CreateMaterialCommand, Result<Guid>> 
 {
     
     public async Task<Result<Guid>> Handle(CreateMaterialCommand request, CancellationToken cancellationToken)
     {
-        
+
+
         var materialExists = await context.Materials.AnyAsync(m => m.Name == request.Name, cancellationToken);
         if (materialExists)
         {
-            return Result<Guid>.Failure("A material with the same name already exists.");
+            return new Error(
+                "Materials.DuplicateMaterial",
+                "A material with the same name already exists.",
+                ErrorType.Conflict
+                );
         }
 
-        var created = await context.Materials.AddAsync(new Material
+
+        var materialResult = Material.Create(request.Name, request.BaseUnit);
+
+        if (!materialResult.IsSuccess)
         {
-            Id = Guid.NewGuid(),
-            Name = request.Name,
-            BaseUnit = request.BaseUnit
-        }, cancellationToken);
+            return Result<Guid>.Failure(materialResult.Error);
+        }
+
+        var created = await context.Materials.AddAsync(materialResult.Value, cancellationToken);
 
         await context.SharedSaveChangesAsync(cancellationToken);
         return Result<Guid>.Success(created.Entity.Id);
-    }
-}
-
-public class CreateMaterialValidator: AbstractValidator<CreateMaterialCommand>
-{
-    public CreateMaterialValidator()
-    {
-        RuleFor(x => x.Name)
-            .NotEmpty().WithMessage("Material name cannot be empty.")
-            .MaximumLength(100).WithMessage("Material name cannot exceed 100 characters.");
-        RuleFor(x => x.BaseUnit)
-            .IsInEnum().WithMessage("Please select a valid measurement unit.");
     }
 }

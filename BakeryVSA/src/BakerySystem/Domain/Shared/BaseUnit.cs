@@ -1,4 +1,4 @@
-﻿namespace BakerySystem.Domain;
+﻿namespace BakerySystem.Domain.Shared;
 
 public enum BaseUnit
 {

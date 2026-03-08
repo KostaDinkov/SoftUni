@@ -1,47 +1,67 @@
-﻿using BakerySystem.Domain;
-using Dapper;
+﻿using BakerySystem.Domain.Common;
+using BakerySystem.Domain.Vendors;
+using BakerySystem.Features.Vendors._Shared;
+using BakerySystem.Infrastructure.Extensions;
+using BakerySystem.Infrastructure.Persistence;
+using Gridify;
+using Gridify.EntityFramework;
 using MediatR;
-using Npgsql;
+using Microsoft.EntityFrameworkCore;
 
 namespace BakerySystem.Features.Vendors.GetVendors;
 
-public record VendorResponse(Guid Id, string Name);
-
-public record GetVendorsQuery : IRequest<Result<IEnumerable<VendorResponse>>>;
+public record GetVendorsQuery(GridifyQuery GridifyQuery) : IRequest<Result<Paging<VendorResponse>>>;
 
 public static class GetVendorsEndpoint
 {
     public static void MapGetVendors(this IEndpointRouteBuilder app)
     {
-        app.MapGet("/api/vendors", async (IMediator mediator) =>
+        app.MapGet("/api/vendors", async ([AsParameters] GridifyQuery query, IMediator mediator) =>
             {
-                var vendors = await mediator.Send(new GetVendorsQuery());
-                return Results.Ok(vendors);
+                var result = await mediator.Send(new GetVendorsQuery(query));
+
+                return result.ToProblemDetails();
             })
             .WithName("GetVendors")
-            .WithOpenApi(); // This makes it show up in Swagger!
+            .WithDescription("Supports Gridify filtering, sorting, and pagination.");
     }
 }
 
-public class GetVendorsHandler: IRequestHandler<GetVendorsQuery, Result<IEnumerable<VendorResponse>>>
+public class GetVendorsHandler(BakeryDbContext context)
+    : IRequestHandler<GetVendorsQuery, Result<Paging<VendorResponse>>>
 {
-   private readonly IConfiguration _configuration;
+    public async Task<Result<Paging<VendorResponse>>> Handle(GetVendorsQuery request, CancellationToken ct)
+    {
+        var mapper = new VendorMapper();
 
-   public GetVendorsHandler(IConfiguration configuration)
-   {
-       _configuration = configuration;
-   }
-
-   public async Task<Result<IEnumerable<VendorResponse>>> Handle(GetVendorsQuery request, CancellationToken ct)
-   {
-       var connectionString = _configuration.GetConnectionString("DefaultConnection");
+        var query = context.Vendors.AsNoTracking();
         
-        await using var connection = new NpgsqlConnection(connectionString);
-        const string sql = @"
-            SELECT Id, Name
-            FROM public.Vendors";
-        var vendors = await connection.QueryAsync<VendorResponse>(sql);
-        return Result<IEnumerable<VendorResponse>>.Success(vendors);
+        var pagedData = await query.GridifyAsync(request.GridifyQuery, ct, mapper);
+
+        var mappedItems = pagedData.Data.Select(v => v.ToResponse());
+
+        return Result<Paging<VendorResponse>>.Success(new Paging<VendorResponse>(pagedData.Count,mappedItems));
+    }
+}
+
+public class VendorMapper : GridifyMapper<Vendor>
+{
+    public VendorMapper()
+    {
+        this.GenerateMappings();
+        AddMap("Email", v =>  v.ContactInfo!.Email);
+        AddMap("PhoneNumber", v=> v.ContactInfo!.PhoneNumber );
+        AddMap("Address", v => v.ContactInfo!.Address);
+        AddMap("City", v => v.ContactInfo!.City);
+        AddMap("Country", v => v.ContactInfo!.Country);
+        AddMap("Uic", v =>  v.LegalInfo!.Uic);
+        AddMap("VatNumber", v => v.LegalInfo!.VatNumber);
+        AddMap("LegalAddress", v => v.LegalInfo!.LegalAddress);
+        AddMap("Mol", v => v.LegalInfo!.Mol);
+        AddMap("BankName", v => v.BankingInfo!.BankName);
+        AddMap("Iban", v => v.BankingInfo!.Iban);
+        AddMap("Swift", v => v.BankingInfo!.Swift);
+
     }
 }
 

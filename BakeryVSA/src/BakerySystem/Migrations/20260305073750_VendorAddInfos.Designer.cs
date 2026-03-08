@@ -3,6 +3,7 @@ using System;
 using BakerySystem.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace BakerySystem.Migrations
 {
     [DbContext(typeof(BakeryDbContext))]
-    partial class BakeryDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260305073750_VendorAddInfos")]
+    partial class VendorAddInfos
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -71,20 +74,23 @@ namespace BakerySystem.Migrations
                                 .HasColumnName("id");
 
                             b1.Property<string>("BankName")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("banking_info_bank_name");
 
                             b1.Property<string>("Iban")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("banking_info_iban");
 
                             b1.Property<string>("Swift")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("banking_info_swift");
 
                             b1.HasKey("VendorId");
 
-                            b1.ToTable("vendors", (string)null);
+                            b1.ToTable("vendors");
 
                             b1.WithOwner()
                                 .HasForeignKey("VendorId")
@@ -98,28 +104,33 @@ namespace BakerySystem.Migrations
                                 .HasColumnName("id");
 
                             b1.Property<string>("Address")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("contact_info_address");
 
                             b1.Property<string>("City")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("contact_info_city");
 
                             b1.Property<string>("Country")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("contact_info_country");
 
                             b1.Property<string>("Email")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("contact_info_email");
 
                             b1.Property<string>("PhoneNumber")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("contact_info_phone_number");
 
                             b1.HasKey("VendorId");
 
-                            b1.ToTable("vendors", (string)null);
+                            b1.ToTable("vendors");
 
                             b1.WithOwner()
                                 .HasForeignKey("VendorId")
@@ -133,35 +144,42 @@ namespace BakerySystem.Migrations
                                 .HasColumnName("id");
 
                             b1.Property<string>("LegalAddress")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("legal_info_legal_address");
 
                             b1.Property<string>("Mol")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("legal_info_mol");
 
                             b1.Property<string>("Uic")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("legal_info_uic");
 
                             b1.Property<string>("VatNumber")
+                                .IsRequired()
                                 .HasColumnType("text")
                                 .HasColumnName("legal_info_vat_number");
 
                             b1.HasKey("VendorId");
 
-                            b1.ToTable("vendors", (string)null);
+                            b1.ToTable("vendors");
 
                             b1.WithOwner()
                                 .HasForeignKey("VendorId")
                                 .HasConstraintName("fk_vendors_vendors_id");
                         });
 
-                    b.Navigation("BankingInfo");
+                    b.Navigation("BankingInfo")
+                        .IsRequired();
 
-                    b.Navigation("ContactInfo");
+                    b.Navigation("ContactInfo")
+                        .IsRequired();
 
-                    b.Navigation("LegalInfo");
+                    b.Navigation("LegalInfo")
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

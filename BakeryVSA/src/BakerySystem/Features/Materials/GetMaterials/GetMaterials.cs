@@ -1,25 +1,36 @@
-﻿using BakerySystem.Domain;
+﻿using BakerySystem.Domain.Common;
+using BakerySystem.Domain.Materials;
+using BakerySystem.Domain.Shared;
+using BakerySystem.Features.Materials._Shared;
+using BakerySystem.Infrastructure.Extensions;
+using BakerySystem.Infrastructure.Persistence;
 using Dapper;
+using Gridify;
+using Gridify.EntityFramework;
 using MediatR;
-using Npgsql;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace BakerySystem.Features.Materials.GetMaterials;
 
-public record MaterialResponse(string Name, Guid Id, BaseUnit BaseUnit);
+public record MaterialResponse(Guid Id, string Name,  BaseUnit BaseUnit);
 
-public record GetMaterialsQuery : IRequest<Result<IEnumerable<MaterialResponse>>>;
+public record GetMaterialsQuery (GridifyQuery GridifyQuery): IRequest<Result<Paging<MaterialResponse>>>;
 
-public class GetMaterialsHandler(IConfiguration configuration):IRequestHandler<GetMaterialsQuery, Result<IEnumerable<MaterialResponse>>>
+public class GetMaterialsHandler(BakeryDbContext context):IRequestHandler<GetMaterialsQuery, Result<Paging<MaterialResponse>>>
 {
 
-    public async Task<Result<IEnumerable<MaterialResponse>>> Handle(GetMaterialsQuery request, CancellationToken cancellationToken)
+    public async Task<Result<Paging<MaterialResponse>>> Handle(GetMaterialsQuery request, CancellationToken cancellationToken)
     {
-        var connectionString = configuration.GetConnectionString("DefaultConnection");
-        await using var connection = new NpgsqlConnection(connectionString);
-        var sql = @"Select name, id, base_unit from materials";
+        
+        var mapper = new GridifyMapper<Material>();
 
-        var result = await connection.QueryAsync<MaterialResponse>(sql);
-        return Result<IEnumerable<MaterialResponse>>.Success(result);
+        var materials = context.Materials.AsNoTracking();
+
+        var pagedData = await materials.GridifyAsync(request.GridifyQuery, cancellationToken, mapper);
+
+        var mappedItems = pagedData.Data.Select(m => m.ToResponse());
+        return Result<Paging<MaterialResponse>>.Success(new Paging<MaterialResponse>(pagedData.Count, mappedItems ));
     }
 }
 
@@ -27,15 +38,13 @@ public static class GetMaterialsEndpoint
 {
     public static void MapGetMaterials(this IEndpointRouteBuilder app)
     {
-        app.MapGet("/api/materials", async (IMediator mediator) =>
+        app.MapGet("/api/materials", async ([AsParameters] GridifyQuery query,IMediator mediator) =>
             {
-                var result = await mediator.Send(new GetMaterialsQuery());
+                var result = await mediator.Send(new GetMaterialsQuery(query));
 
-                return result.IsSuccess
-                    ? Results.Ok(result.Value)
-                    : Results.BadRequest(result.Error);
+                return result.ToProblemDetails();
             })
-            .WithName("GetMaterials")
-            .WithOpenApi();
+            .WithName("GetMaterials");
+
     }
 }
