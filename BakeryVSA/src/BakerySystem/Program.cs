@@ -1,41 +1,65 @@
-using BakerySystem.Features.Lookups.GetBaseUnits;
-using BakerySystem.Features.Materials.CreateMaterial;
-using BakerySystem.Features.Materials.GetMaterials;
-using BakerySystem.Features.Vendors.CreateVendor;
-using BakerySystem.Features.Vendors.GetVendors;
+using BakerySystem.Infrastructure.Extensions;
 using BakerySystem.Infrastructure.MediatR;
 using BakerySystem.Infrastructure.Middleware;
 using BakerySystem.Infrastructure.Persistence;
-using Dapper;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using OpenTelemetry.Resources;
+using OpenTelemetry.Trace;
 using Scalar.AspNetCore;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
+builder.Services.AddScoped<PublishDomainEventsInterceptor>();
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddDbContext<BakeryDbContext>(options =>
+builder.Services.AddDbContext<BakeryDbContext>((sp,options) =>
 {
+    var interceptor = sp.GetRequiredService<PublishDomainEventsInterceptor>();
     options.UseNpgsql(connectionString)
         .UseSnakeCaseNamingConvention();
+
 
 });
 builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 
+builder.Services.AddEndpoints(typeof(Program).Assembly);
+
 builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssembly(typeof(Program).Assembly);
-    cfg.AddOpenBehavior(typeof(ValidationBehavior<,>));
+    cfg.AddOpenBehavior(typeof(LoggingBehavior<,>));      // ✅ Outermost — logs everything
+    cfg.AddOpenBehavior(typeof(ValidationBehavior<,>));   // ✅ Inner — only runs if logging allows
 });
+
 builder.Services.AddValidatorsFromAssembly(typeof(Program).Assembly);
 
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
 builder.Services.AddProblemDetails();
-DefaultTypeMap.MatchNamesWithUnderscores = true;
+
+
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level:u3}] {Message:lj}{NewLine}{Properties:j}{Exception}")
+    .Enrich.FromLogContext()
+    .Enrich.WithEnvironmentName()
+    .Enrich.WithMachineName()
+    .CreateLogger();
+
+builder.Host.UseSerilog();
+
+
+builder.Services.AddOpenTelemetry()
+    .ConfigureResource(resource => resource.AddService("BakerySystem"))
+    .WithTracing(tracing => tracing
+        .AddAspNetCoreInstrumentation()
+        .AddHttpClientInstrumentation()
+        .AddEntityFrameworkCoreInstrumentation()
+        .AddConsoleExporter());
 
 
 var app = builder.Build();
@@ -55,34 +79,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-    {
-        var forecast = Enumerable.Range(1, 5).Select(index =>
-                new WeatherForecast
-                (
-                    DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-                    Random.Shared.Next(-20, 55),
-                    summaries[Random.Shared.Next(summaries.Length)]
-                ))
-            .ToArray();
-        return forecast;
-    })
-    .WithName("GetWeatherForecast");
-app.MapCreateVendor();
-app.MapGetVendors();
-app.MapCreateMaterialEndpoint();
-app.MapGetMaterials();
-app.MapGetBaseUnits();
+app.MapEndpoints();
 
 app.Run();
-
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

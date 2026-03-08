@@ -1,13 +1,14 @@
 ﻿using BakerySystem.Domain.Shared;
+using BakerySystem.Infrastructure.Extensions;
 
 namespace BakerySystem.Features.Lookups.GetBaseUnits;
 
 public record UnitLookupResponse(int Id, string Name, string Label);
-public static class GetBaseUnitsEndPoint
+public class GetBaseUnitsEndPoint:IEndpoint
 {
-    public static void MapGetBaseUnits(this IEndpointRouteBuilder app)
+    public void MapEndpoint(IEndpointRouteBuilder builder)
     {
-        app.MapGet("/api/lookups/base-units", () =>
+        builder.MapGet("/api/lookups/base-units", () =>
         {
             var baseUnits = Enum.GetValues<BaseUnit>()
                 .Select(u => new UnitLookupResponse((int)u, u.ToString(), u.ToDisplayString()))

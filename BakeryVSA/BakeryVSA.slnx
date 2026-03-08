@@ -1,7 +1,11 @@
 <Solution>
-  <Folder Name="/Solution Items/" />
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Packages.props" />
+  </Folder>
   <Project Path="docker-compose.dcproj">
     <Build />
   </Project>
   <Project Path="src/BakerySystem/BakerySystem.csproj" />
+  <Project Path="test/BakeryVSA.IntegrationTests/BakeryVSA.IntegrationTests.csproj" Id="15cdd6ef-31e9-4c1c-88ae-73bc3c0fcd1c" />
+  <Project Path="test/BakeryVSAtests/BakeryVSA.UnitTests.csproj" Id="253fda99-c053-481f-8b49-2bd3bb45cc5e" />
 </Solution>

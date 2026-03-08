@@ -26,18 +26,6 @@ namespace BakerySystem.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "vendors",
-                columns: table => new
-                {
-                    id = table.Column<Guid>(type: "uuid", nullable: false),
-                    name = table.Column<string>(type: "text", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("pk_vendors", x => x.id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "materials",
                 columns: table => new
                 {
@@ -67,9 +55,6 @@ namespace BakerySystem.Migrations
         {
             migrationBuilder.DropTable(
                 name: "materials");
-
-            migrationBuilder.DropTable(
-                name: "vendors");
 
             migrationBuilder.DropTable(
                 name: "base_units");

@@ -5,22 +5,23 @@ using Microsoft.EntityFrameworkCore;
 
 using BakerySystem.Domain.Vendors;
 using BakerySystem.Domain.Common;
+using BakerySystem.Infrastructure.Extensions;
 
 namespace BakerySystem.Features.Vendors.CreateVendor;
 
 
-public static class CreateVendorEndpoint
+public class CreateVendorEndpoint: IEndpoint
 {
-    public static void MapCreateVendor(this IEndpointRouteBuilder app)
+    public void MapEndpoint(IEndpointRouteBuilder builder)
     {
-        app.MapPost("/api/vendors", async (CreateVendorCommand command, IMediator mediator) =>
+        builder.MapPost("/api/vendors", async (CreateVendorCommand command, IMediator mediator) =>
             {
 
                 var result = await mediator.Send(command);
 
                 return result.IsSuccess
                     ? Results.Created($"/api/vendors/{result.Value}", result.Value)
-                    : Results.BadRequest(result.Error);
+                    : result.ToProblemDetails();
             })
             .WithName("CreateVendor");
 

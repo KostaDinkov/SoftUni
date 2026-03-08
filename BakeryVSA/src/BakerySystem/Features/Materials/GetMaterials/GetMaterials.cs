@@ -4,7 +4,6 @@ using BakerySystem.Domain.Shared;
 using BakerySystem.Features.Materials._Shared;
 using BakerySystem.Infrastructure.Extensions;
 using BakerySystem.Infrastructure.Persistence;
-using Dapper;
 using Gridify;
 using Gridify.EntityFramework;
 using MediatR;
@@ -34,11 +33,11 @@ public class GetMaterialsHandler(BakeryDbContext context):IRequestHandler<GetMat
     }
 }
 
-public static class GetMaterialsEndpoint
+public class GetMaterialsEndpoint:IEndpoint
 {
-    public static void MapGetMaterials(this IEndpointRouteBuilder app)
+    public void MapEndpoint(IEndpointRouteBuilder builder)
     {
-        app.MapGet("/api/materials", async ([AsParameters] GridifyQuery query,IMediator mediator) =>
+        builder.MapGet("/api/materials", async ([AsParameters] GridifyQuery query,IMediator mediator) =>
             {
                 var result = await mediator.Send(new GetMaterialsQuery(query));
 

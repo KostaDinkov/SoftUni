@@ -3,19 +3,20 @@ using MediatR;
 using BakerySystem.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
 using BakerySystem.Domain.Materials;
+using BakerySystem.Infrastructure.Extensions;
 
 namespace BakerySystem.Features.Materials.CreateMaterial;
 
-public static class CreateMaterialEndpoint
+public class CreateMaterialEndpoint:IEndpoint
 {
-    public static void MapCreateMaterialEndpoint(this IEndpointRouteBuilder builder)
+    public void MapEndpoint(IEndpointRouteBuilder builder)
     {
         builder.MapPost("/api/materials", async (CreateMaterialCommand command, IMediator mediator) =>
             {
                 var result = await mediator.Send(command);
                 return result.IsSuccess
                     ? Results.Created($"/api/materials/{result.Value}", result.Value)
-                    : Results.BadRequest(result.Error);
+                    : result.ToProblemDetails();
             })
             .WithName("CreateMaterial");
 
@@ -52,5 +53,18 @@ public class CreateMaterialHandler (BakeryDbContext context) :IRequestHandler<Cr
 
         await context.SharedSaveChangesAsync(cancellationToken);
         return Result<Guid>.Success(created.Entity.Id);
+    }
+}
+
+public class MaterialCreatedLogger(ILogger<MaterialCreatedLogger> logger)
+    : INotificationHandler<MaterialCreatedEvent>
+{
+    public Task Handle(MaterialCreatedEvent notification, CancellationToken ct)
+    {
+        // This will show up in your console logs under the SAME TraceId as the Create command!
+        logger.LogInformation("--- DOMAIN EVENT: Material '{Name}' was born with ID {Id} ---",
+            notification.Name, notification.Id);
+
+        return Task.CompletedTask;
     }
 }

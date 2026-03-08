@@ -1,16 +1,16 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using System.Net;
 
 namespace BakerySystem.Infrastructure.Middleware;
 
-public class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger) : IExceptionHandler
+public class GlobalExceptionHandler(
+    ILogger<GlobalExceptionHandler> logger,
+    IHostEnvironment environment
+    ) : IExceptionHandler
 {
     public async ValueTask<bool> TryHandleAsync(HttpContext httpContext, Exception exception, CancellationToken cancellationToken)
     {
-        var isDevelopment = httpContext.RequestServices
-            .GetRequiredService<IHostEnvironment>()
-            .IsDevelopment();
+        var isDevelopment = environment.IsDevelopment();
 
         logger.LogError(exception, "An unhandled exception occurred: {Message}", exception.Message);
 

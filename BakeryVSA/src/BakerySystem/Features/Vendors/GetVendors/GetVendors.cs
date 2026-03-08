@@ -12,11 +12,11 @@ namespace BakerySystem.Features.Vendors.GetVendors;
 
 public record GetVendorsQuery(GridifyQuery GridifyQuery) : IRequest<Result<Paging<VendorResponse>>>;
 
-public static class GetVendorsEndpoint
+public class GetVendorsEndpoint: IEndpoint
 {
-    public static void MapGetVendors(this IEndpointRouteBuilder app)
+    public void MapEndpoint(IEndpointRouteBuilder builder)
     {
-        app.MapGet("/api/vendors", async ([AsParameters] GridifyQuery query, IMediator mediator) =>
+        builder.MapGet("/api/vendors", async ([AsParameters] GridifyQuery query, IMediator mediator) =>
             {
                 var result = await mediator.Send(new GetVendorsQuery(query));
 
